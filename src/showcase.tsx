@@ -1,5 +1,6 @@
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import Ravit from './Ravit.jpg';
 
 
 function Showcase() {
@@ -31,6 +32,8 @@ function Showcase() {
                 </div>
                 <div className="col-lg-12">
                     <h2 style={{ position: "relative", left: "375px", top: "-220px", fontSize: "50px" }}> Snapshots </h2>
+                    <img src={Ravit} className="snapshots" alt="" />
+
                 </div>
             </div>
         </div>

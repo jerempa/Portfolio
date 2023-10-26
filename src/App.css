@@ -76,6 +76,12 @@ body {
   top: -260px;
 }
 
+.snapshots {position: relative;
+  left: -600px;
+  top: -220px;
+  width: 1000px; 
+  height: auto; 
+}
 .p {
   line-height: 1.6;
 }
