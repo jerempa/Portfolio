@@ -65,22 +65,14 @@ body {
 .programming-font {
   font-size: 40px;
   position: relative;
-  left: 600px;
-  top: -260px;
 }
 
 .programming {
   font-size: 50px;
   position: relative;
-  left: 600px;
-  top: -260px;
 }
 
 .snapshots {position: relative;
-  left: -600px;
-  top: -220px;
-  width: 1000px; 
-  height: auto; 
 }
 .p {
   line-height: 1.6;
@@ -122,6 +114,7 @@ table {
 .column {
   flex: 33.33%;
   padding: 5px;
+  padding-left: 50px;
 }
 
 
