@@ -31,53 +31,47 @@ function CV() {
 
     return (
         <section id="cv">
-        <div className="container mt-5 pt-5">
-            <div className="row">
-                <div className="col-lg-10">
-                    <h1 className="text-left">Curriculum Vitae</h1>
-                        <h2 className="experience">Work experience</h2>
-                            <div className="cv-font">
-                            <ul>
-                                {jobs.map((job, index) => (
-                                <li key={index}>
-                                    {showFullText[index] ? (
-                                    <span><strong>{job}</strong><br />{jobDescriptions[index]}</span>
-                                    ) : `${job.slice(0, job.length)}`}
-                                    <button onClick={() => toggleReadMore(index)}>
-                                    {showFullText[index] ? 'Read Less' : 'Read More'}
-                                </button>
-                                </li>
-                                ))}
-                                </ul>
-                            </div>
-                </div>
-                <div className="row mt-3">
-                    <div className="col-md-12">
-                        <h2 className="language"> Language skills </h2>
-                            <div className="language-font">
-                            <ul>
-                                <li> Finnish (Mother tongue) </li>
-                                <li> English (Excellent) </li>
-                                <li> Swedish (Satisfactory) </li>
-                                <li> French (Basics) </li>
+        <h1 style={{  position: "relative", "left": "950px", fontSize: "60px"}}>Curriculum Vitae</h1>
+        <div className="row">
+            <div className="column">
+                    <h2 className="experience">Work experience</h2>
+                        <div className="cv-font">
+                        <ul>
+                            {jobs.map((job, index) => (
+                            <li key={index}>
+                                {showFullText[index] ? (
+                                <span><strong>{job}</strong><br />{jobDescriptions[index]}</span>
+                                ) : `${job.slice(0, job.length)}`}
+                                <button onClick={() => toggleReadMore(index)}>
+                                {showFullText[index] ? 'Read Less' : 'Read More'}
+                            </button>
+                            </li>
+                            ))}
                             </ul>
-                            </div>
+                        </div>
+            </div>
+            <div className="column">
+                <h2 className="language"> Language skills </h2>
+                    <div className="language-font">
+                        <ul>
+                            <li> Finnish (Mother tongue) </li>
+                            <li> English (Excellent) </li>
+                            <li> Swedish (Satisfactory) </li>
+                            <li> French (Basics) </li>
+                        </ul>
                     </div>
-                </div>
-                <div className="row mt-3">
-                    <div className="col-md-12">
-                        <h2 className="it"> IT skills </h2>
-                            <div className="it-font">
-                            <ul>
-                                <li> Microsoft Office (Excellent) </li>
-                                <li> Power BI (Excellent) </li>
-                                <li> SQL (Proficient) </li>
-                                <li> Python (Proficient) </li>
-                                <li> JavaScript (Competent) </li>
-                            </ul>
-                            </div>
+            </div>
+            <div className="column">
+                <h2 className="it"> IT skills </h2>
+                    <div className="it-font">
+                        <ul>
+                            <li> Microsoft Office (Excellent) </li>
+                            <li> Power BI (Excellent) </li>
+                            <li> SQL (Proficient) </li>
+                            <li> Python (Proficient) </li>
+                            <li> JavaScript (Competent) </li>
+                        </ul>
                     </div>
-                </div>
             </div>
         </div>
         </section>

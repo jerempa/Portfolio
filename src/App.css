@@ -25,41 +25,31 @@ body {
 .cv-font {
   font-size: 40px;
   position: relative;
-  left: -550px;
 }
 
 .experience {
   font-size: 50px;
   position: relative;
-  left: -350px;
 }
 
 .language-font {
   font-size: 40px;
-  position: absolute;
-  left: 1130px;
-  top: 1625px;
+  position: relative;
 }
 
 .language {
   font-size: 50px;
-  position: absolute;
-  left: 1200px;
-  top: 1550px;
+  position: relative;
 }
 
 .it-font {
   font-size: 40px;
-  position: absolute;
-  left: 1850px;
-  top: 1625px;
+  position: relative;
 }
 
 .it {
   font-size: 50px;
-  position: absolute;
-  left: 1850px;
-  top: 1550px;
+  position: relative;
 }
 
 .programming-font {
