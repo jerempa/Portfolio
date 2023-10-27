@@ -1,7 +1,9 @@
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Ravit from './Ravit.jpg';
-
+import RA1 from './Rent_apartment_finder1.png';
+import RA2 from './Rent_apartment_finder2.png';
+import RA3 from './Rent_apartment_finder3.png';
 
 function Showcase() {
 
@@ -32,10 +34,24 @@ function Showcase() {
                 </div>
                 <div className="col-lg-12">
                     <h2 style={{ position: "relative", left: "375px", top: "-220px", fontSize: "50px" }}> Snapshots </h2>
-                    <img src={Ravit} className="snapshots" alt="" />
-
+                    <div className="row">
+                        <img src={Ravit} className="snapshots" alt="" />
+                        <figcaption style={{position: "relative", left: "-600px", top: "-220px", width: "1000px", fontSize: "30px" }}>Fig 1. Drinking game "Ravit". Source code can be found <a href="https://github.com/jerempa/Ravit" target="_blank">here</a>.</figcaption>
+                    </div>
                 </div>
             </div>
+        </div>
+        <div className="row">
+            <div className="column"> 
+                <img src={RA1}  alt="RA1" style={{width: "100%", height: "700px"}}/>
+            </div>
+            <div className="column">  
+                <img src={RA2}  alt="RA2" style={{width: "100%", height: "700px"}} />
+            </div>
+            <div className="column"> 
+                <img src={RA3}  alt="RA3"  style={{width: "100%", height: "700px"}}/>
+            </div>
+            <figcaption style={{position: "relative", fontSize: "30px" }}>Fig 2, 3 and 4. Python program for finding apartments from Oikotie. Source code can be found <a href="https://github.com/jerempa/Rent-apartment-finder" target="_blank">here</a>.</figcaption>
         </div>
         </section>
     );

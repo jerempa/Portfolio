@@ -105,13 +105,25 @@ table {
 
 
 
-img {
+.imgabout {
   width: 800px; 
   height: auto; 
   position: absolute;
   top: 100px; 
   left: 100px; 
 }
+
+
+
+.row {
+  display: flex;
+}
+
+.column {
+  flex: 33.33%;
+  padding: 5px;
+}
+
 
 @keyframes gradient {
   0% {
