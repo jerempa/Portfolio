@@ -19,7 +19,8 @@ body {
 .about-font {
   font-size: 40px;
   position: relative;
-  left: 350px;
+  top: 200px;
+  left: -400px;
 }
 
 .cv-font {
@@ -90,9 +91,7 @@ table {
 .imgabout {
   width: 800px; 
   height: auto; 
-  position: absolute;
-  top: 100px; 
-  left: 100px; 
+  position: relative;
 }
 
 
