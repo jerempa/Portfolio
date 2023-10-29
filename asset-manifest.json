@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.d7942de5.css",
-    "main.js": "/Portfolio/static/js/main.412193e0.js",
+    "main.css": "/Portfolio/static/css/main.a7a9a3e9.css",
+    "main.js": "/Portfolio/static/js/main.cb0678a5.js",
     "static/js/787.6994c3f5.chunk.js": "/Portfolio/static/js/787.6994c3f5.chunk.js",
     "static/media/IMG_20220219_180602 (1).jpg": "/Portfolio/static/media/IMG_20220219_180602 (1).31e415e7cc27241aed2a.jpg",
     "static/media/Ravit.jpg": "/Portfolio/static/media/Ravit.faaf868764f27e6dae58.jpg",
@@ -9,12 +9,12 @@
     "static/media/Rent_apartment_finder2.png": "/Portfolio/static/media/Rent_apartment_finder2.00b9cb6f884277ee4df5.png",
     "static/media/Rent_apartment_finder3.png": "/Portfolio/static/media/Rent_apartment_finder3.f1e81cac76e360c01ef1.png",
     "index.html": "/Portfolio/index.html",
-    "main.d7942de5.css.map": "/Portfolio/static/css/main.d7942de5.css.map",
-    "main.412193e0.js.map": "/Portfolio/static/js/main.412193e0.js.map",
+    "main.a7a9a3e9.css.map": "/Portfolio/static/css/main.a7a9a3e9.css.map",
+    "main.cb0678a5.js.map": "/Portfolio/static/js/main.cb0678a5.js.map",
     "787.6994c3f5.chunk.js.map": "/Portfolio/static/js/787.6994c3f5.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d7942de5.css",
-    "static/js/main.412193e0.js"
+    "static/css/main.a7a9a3e9.css",
+    "static/js/main.cb0678a5.js"
   ]
 }
