@@ -10,7 +10,7 @@ function Showcase() {
 
     return (
         <section id="showcase">
-        <h1 style={{  position: "relative", "left": "950px", fontSize: "60px"}}>Showcase</h1>
+        <h1 style={{  position: "relative", "left": "950px", fontSize: "60px", paddingTop: "100px"}}>Showcase</h1>
         <div className="row">
             <div className="column">
                     <h2 className="header">Articles written for Ruotuväki online</h2>
