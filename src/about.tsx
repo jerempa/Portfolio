@@ -2,6 +2,7 @@ import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import myImage from './IMG_20220219_180602 (1).jpg';
 
+
 function About() {
 
   return (
