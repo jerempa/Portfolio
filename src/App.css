@@ -24,9 +24,6 @@ body {
   max-width: 1600px;
 }
 
-
-.snapshots {position: relative;
-}
 .p {
   line-height: 1.6;
 }
@@ -46,6 +43,18 @@ table {
   position: relative;
   left: 350px;
   font-size: 60px;
+}
+
+.text {
+  position: relative;
+  font-size: 40px;
+  padding-left: 30px;
+}
+
+.header {
+  position: relative;
+  font-size: 50px;
+  padding-left: 30px;
 }
 
 

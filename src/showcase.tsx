@@ -13,8 +13,8 @@ function Showcase() {
         <h1 style={{  position: "relative", "left": "950px", fontSize: "60px"}}>Showcase</h1>
         <div className="row">
             <div className="column">
-                    <h2 style={{"position": "relative", "fontSize": "50px"}}>Articles written for Ruotuväki online</h2>
-                        <div style={{"position": "relative", "fontSize": "40px"}}>
+                    <h2 className="header">Articles written for Ruotuväki online</h2>
+                        <div className="text">
                             <ul>
                                 <li> <a href="https://ruotuvaki.fi/-/arktisen-koulutuksen-karkiosaaja-40-vuotta" target="_blank">Arktisen koulutuksen kärkiosaaja 40 vuotta</a> </li>
                                 <li> <a href="https://ruotuvaki.fi/-/1951245/vuoden-2019-ansioituneet-sotilasurheilijat-palkittiin" target="_blank">Vuoden 2019 ansioituneet sotilasurheilijat palkittiin</a> </li>
@@ -25,8 +25,8 @@ function Showcase() {
         </div>
         <div className="row">
             <div className="column">
-                <h2 style={{"position": "relative", "fontSize": "50px"}}> Programming </h2>
-                    <p style={{"position": "relative", "fontSize": "40px"}}>
+                <h2 className="header"> Programming </h2>
+                    <p className="text">
                         The project I have done both with Python and JavaScript can be found on my <a href="https://github.com/jerempa" target="_blank">Github</a>.
                         There are projects that are related to course tasks but most of them are hobby projects of different sizes. The Python projects are mostly built from scratch
                         by myself (including help from Stackoverflow and such) and one JS project is based on source code by other people. The source code for this portfolio
@@ -35,23 +35,23 @@ function Showcase() {
             </div>
         </div>
         <div className="row">
-            <h2 style={{ position: "relative", fontSize: "50px" }}> Snapshots </h2>
+            <h2 className="header"> Snapshots </h2>
             <div className="column">
-                <img src={Ravit} className="snapshots" alt="" />
-                <figcaption style={{position: "relative", fontSize: "30px" }}>Fig 1. Drinking game "Ravit". Source code can be found <a href="https://github.com/jerempa/Ravit" target="_blank">here</a>.</figcaption>
+                <img src={Ravit} style={{position: "relative", paddingLeft: "30px"}} alt="" />
+                <figcaption style={{position: "relative", fontSize: "30px", paddingLeft: "30px" }}>Fig 1. Drinking game "Ravit". Source code can be found <a href="https://github.com/jerempa/Ravit" target="_blank">here</a>.</figcaption>
             </div>
         </div>
         <div className="row">
             <div className="column"> 
-                <img src={RA1}  alt="RA1" style={{width: "100%", height: "700px"}}/>
+                <img src={RA1}  alt="RA1" style={{width: "100%", height: "700px", paddingLeft: "30px"}}/>
             </div>
             <div className="column">  
-                <img src={RA2}  alt="RA2" style={{width: "100%", height: "700px"}} />
+                <img src={RA2}  alt="RA2" style={{width: "100%", height: "700px", paddingLeft: "30px"}} />
             </div>
             <div className="column"> 
-                <img src={RA3}  alt="RA3"  style={{width: "100%", height: "700px"}}/>
+                <img src={RA3}  alt="RA3"  style={{width: "100%", height: "700px", paddingLeft: "30px"}}/>
             </div>
-            <figcaption style={{position: "relative", fontSize: "30px" }}>Fig 2, 3 and 4. Python program for finding apartments from Oikotie. Source code can be found <a href="https://github.com/jerempa/Rent-apartment-finder" target="_blank">here</a>.</figcaption>
+            <figcaption style={{position: "relative", fontSize: "30px", paddingLeft: "30px" }}>Fig 2, 3 and 4. Python program for finding apartments from Oikotie. Source code can be found <a href="https://github.com/jerempa/Rent-apartment-finder" target="_blank">here</a>.</figcaption>
         </div>
         </section>
     );
