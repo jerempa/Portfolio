@@ -10,7 +10,7 @@ function Showcase() {
 
     return (
         <section id="showcase">
-        <h1 style={{  position: "relative", "left": "35vw", fontSize: "60px", paddingTop: "10vh"}}>Showcase</h1>
+        <h1 style={{  position: "relative", "left": "35vw", fontSize: "22px", paddingTop: "10vh"}}>Showcase</h1>
         <div className="row">
             <div className="column">
                     <h2 className="header">Articles written for Ruotuväki online</h2>
@@ -35,23 +35,23 @@ function Showcase() {
             </div>
         </div>
         <div className="row">
-            <h2 style={{position: "relative", fontSize: "50px", paddingLeft: "1.5vw"}}> Snapshots </h2>
+            <h2 style={{position: "relative", fontSize: "22px", paddingLeft: "1.5vw"}}> Snapshots </h2>
             <div className="column">
-                <img src={Ravit} style={{position: "relative", paddingLeft: "1vw"}} alt="" />
-                <figcaption style={{position: "relative", fontSize: "30px", paddingLeft: "1vw" }}>Fig 1. Drinking game "Ravit". Source code can be found <a href="https://github.com/jerempa/Ravit" target="_blank">here</a>.</figcaption>
+                <img src={Ravit} style={{position: "relative", width: "90%", height: "90%", paddingLeft: "1vw"}} alt="" />
+                <figcaption style={{position: "relative", fontSize: "18px", paddingLeft: "1vw" }}>Fig 1. Drinking game "Ravit". Source code can be found <a href="https://github.com/jerempa/Ravit" target="_blank">here</a>.</figcaption>
             </div>
         </div>
         <div className="row">
             <div className="column"> 
-                <img src={RA1}  alt="RA1" style={{width: "100%", height: "700px", paddingLeft: "1vw"}}/>
+                <img src={RA1}  alt="RA1" style={{width: "100%", height: "100%", paddingLeft: "1vw"}}/>
             </div>
             <div className="column">  
-                <img src={RA2}  alt="RA2" style={{width: "100%", height: "700px", paddingLeft: "1vw"}} />
+                <img src={RA2}  alt="RA2" style={{width: "100%", height: "100%", paddingLeft: "1vw"}} />
             </div>
             <div className="column"> 
-                <img src={RA3}  alt="RA3"  style={{width: "100%", height: "700px", paddingLeft: "1vw"}}/>
+                <img src={RA3}  alt="RA3"  style={{width: "100%", height: "100%", paddingLeft: "1vw"}}/>
             </div>
-            <figcaption style={{position: "relative", fontSize: "30px", paddingLeft: "1.5vw" }}>Fig 2, 3 and 4. Python program for finding apartments from Oikotie. Source code can be found <a href="https://github.com/jerempa/Rent-apartment-finder" target="_blank">here</a>.</figcaption>
+            <figcaption style={{position: "relative", fontSize: "18px", paddingLeft: "1.5vw" }}>Fig 2, 3 and 4. Python program for finding apartments from Oikotie. Source code can be found <a href="https://github.com/jerempa/Rent-apartment-finder" target="_blank">here</a>.</figcaption>
         </div>
         </section>
     );
