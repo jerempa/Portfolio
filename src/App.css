@@ -19,7 +19,8 @@ body {
 .about-font {
   font-size: 18px;
   position: relative;
-  
+  top: 18vh;  
+
 }
 
 .p {
@@ -33,7 +34,8 @@ table {
   border-spacing: 16px;
   table-layout: fixed;
   position: relative;
-  width: 100%
+  width: 100%;
+  top: 18vh;  
 }
 
 

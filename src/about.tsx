@@ -7,12 +7,13 @@ function About() {
 
   return (
     <section id="home">
-      <h1 style={{  position: "relative", "left": "50vw", "top": "20vh", fontSize: "22px"}}>About Me</h1>
-      <div className="row">
-        <div style={{ width: "30%"}}>
+      <div className="row mt-4">
+        <div className="col-lg-4">
           <img src={myImage} className="imgabout" alt="" />
         </div>
-        <div style={{ position: "relative", width: "70%", "top": "20vh"}}>
+        <div className="col-lg-8">
+        <h1 style={{  position: "relative", "left": "25vw", "top": "20vh", fontSize: "22px"}}>About Me</h1>
+
             <p className="about-font">
                 My name is Jere Pankka and I'm a M.Sc. Information and Service Management (ISM) student at Aalto University.
                 Completing Information and Service Management as major and Computer Science as a minor
