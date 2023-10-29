@@ -35,7 +35,7 @@ function Showcase() {
             </div>
         </div>
         <div className="row">
-            <h2 className="header"> Snapshots </h2>
+            <h2 style={{position: "relative", fontSize: "50px", paddingLeft: "40px"}}> Snapshots </h2>
             <div className="column">
                 <img src={Ravit} style={{position: "relative", paddingLeft: "30px"}} alt="" />
                 <figcaption style={{position: "relative", fontSize: "30px", paddingLeft: "30px" }}>Fig 1. Drinking game "Ravit". Source code can be found <a href="https://github.com/jerempa/Ravit" target="_blank">here</a>.</figcaption>
@@ -51,7 +51,7 @@ function Showcase() {
             <div className="column"> 
                 <img src={RA3}  alt="RA3"  style={{width: "100%", height: "700px", paddingLeft: "30px"}}/>
             </div>
-            <figcaption style={{position: "relative", fontSize: "30px", paddingLeft: "30px" }}>Fig 2, 3 and 4. Python program for finding apartments from Oikotie. Source code can be found <a href="https://github.com/jerempa/Rent-apartment-finder" target="_blank">here</a>.</figcaption>
+            <figcaption style={{position: "relative", fontSize: "30px", paddingLeft: "40px" }}>Fig 2, 3 and 4. Python program for finding apartments from Oikotie. Source code can be found <a href="https://github.com/jerempa/Rent-apartment-finder" target="_blank">here</a>.</figcaption>
         </div>
         </section>
     );
