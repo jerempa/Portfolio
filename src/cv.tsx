@@ -31,7 +31,7 @@ function CV() {
 
     return (
         <section id="cv">
-        <h1 style={{  position: "relative", "left": "35vw", fontSize: "22px", "paddingTop": "20vh"}}>Curriculum Vitae</h1>
+        <h1 style={{  position: "relative", "left": "35vw", fontSize: "22px", "paddingTop": "10vh"}}>Curriculum Vitae</h1>
         <div className="row">
             <div className="column">
                     <h2 className="header">Work experience</h2>

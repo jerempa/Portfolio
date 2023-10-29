@@ -12,8 +12,7 @@ function About() {
           <img src={myImage} className="imgabout" alt="" />
         </div>
         <div className="col-lg-8">
-        <h1 style={{  position: "relative", "left": "25vw", "top": "20vh", fontSize: "22px"}}>About Me</h1>
-
+        <h1 style={{  position: "relative", "left": "25vw", "top": "7vh", fontSize: "22px"}}>About Me</h1>
             <p className="about-font">
                 My name is Jere Pankka and I'm a M.Sc. Information and Service Management (ISM) student at Aalto University.
                 Completing Information and Service Management as major and Computer Science as a minor
@@ -45,6 +44,13 @@ function About() {
                         <td>Project management etc.</td>
                     </tr>
                 </table>
+                <p className="about-font">
+                I'm eager to learn more about new technologies and being able to work
+                with data. Therefore, I'm hoping I can pursue a career as a data analyst or 
+                a software developer. I'm at the right track as I'm working as
+                a Power BI analyst and hopefully I'm able to gain more responsibility and diversify
+                my work tasks as my studies are coming to an end in a couple of years.
+              </p>
         </div>
       </div>
     </section>

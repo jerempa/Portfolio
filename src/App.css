@@ -19,14 +19,13 @@ body {
 .about-font {
   font-size: 18px;
   position: relative;
-  top: 18vh;  
+  top: 5vh;  
 
 }
 
 .p {
   line-height: 1.6;
 }
-
 
 table {
   border: 1px solid black;
@@ -35,7 +34,7 @@ table {
   table-layout: fixed;
   position: relative;
   width: 100%;
-  top: 18vh;  
+  top: 5vh;  
 }
 
 
