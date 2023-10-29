@@ -20,12 +20,12 @@ function NavBar() {
                 </li>
                 <li className="nav-item">
                     <a href="https://github.com/jerempa" target="_blank">
-                    <FontAwesomeIcon icon={faGithub} style={{position: "relative", paddingLeft: "20px", fontSize: "80px", color:"#070709"}}/>
+                    <FontAwesomeIcon icon={faGithub} style={{position: "relative", paddingLeft: "1vw", fontSize: "40px", color:"#070709"}}/>
                     </a>
                 </li>
                 <li className="nav-item">
                     <a href="https://www.linkedin.com/in/jere-pankka-806003289/" target="_blank"> 
-                        <FontAwesomeIcon icon={faLinkedin} style={{position: "relative", paddingLeft: "20px", fontSize: "80px", color: "#0085AE"}}/>
+                        <FontAwesomeIcon icon={faLinkedin} style={{position: "relative", paddingLeft: "1vw", fontSize: "40px", color: "#0085AE"}}/>
                     </a>
                 </li>
             </ul>
