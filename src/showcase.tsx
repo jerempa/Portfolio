@@ -41,15 +41,15 @@ function Showcase() {
                 <figcaption style={{position: "relative", fontSize: "18px", paddingLeft: "1vw" }}>Fig 1. Drinking game "Ravit". Source code can be found <a href="https://github.com/jerempa/Ravit" target="_blank">here</a>.</figcaption>
             </div>
         </div>
-        <div className="row">
+        <div className="row" style={{paddingTop: "4vh"}}>
             <div className="column"> 
-                <img src={RA1}  alt="RA1" style={{width: "100%", height: "100%", paddingLeft: "1vw"}}/>
+                <img src={RA1}  alt="RA1" style={{position: "relative", width: "100%", height: "100%", paddingLeft: "1vw"}}/>
             </div>
             <div className="column">  
-                <img src={RA2}  alt="RA2" style={{width: "100%", height: "100%", paddingLeft: "1vw"}} />
+                <img src={RA2}  alt="RA2" style={{position: "relative", width: "100%", height: "100%", paddingLeft: "1vw"}} />
             </div>
             <div className="column"> 
-                <img src={RA3}  alt="RA3"  style={{width: "100%", height: "100%", paddingLeft: "1vw"}}/>
+                <img src={RA3}  alt="RA3"  style={{position: "relative", width: "100%", height: "100%", paddingLeft: "1vw"}}/>
             </div>
             <figcaption style={{position: "relative", fontSize: "18px", paddingLeft: "1.5vw" }}>Fig 2, 3 and 4. Python program for finding apartments from Oikotie. Source code can be found <a href="https://github.com/jerempa/Rent-apartment-finder" target="_blank">here</a>.</figcaption>
         </div>

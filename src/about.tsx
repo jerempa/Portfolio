@@ -9,10 +9,10 @@ function About() {
     <section id="home">
       <h1 style={{  position: "relative", "left": "50vw", "top": "20vh", fontSize: "22px"}}>About Me</h1>
       <div className="row">
-        <div className="column" >
+        <div style={{ width: "30%"}}>
           <img src={myImage} className="imgabout" alt="" />
         </div>
-        <div className="column">
+        <div style={{ position: "relative", width: "70%", "top": "20vh"}}>
             <p className="about-font">
                 My name is Jere Pankka and I'm a M.Sc. Information and Service Management (ISM) student at Aalto University.
                 Completing Information and Service Management as major and Computer Science as a minor
@@ -22,7 +22,7 @@ function About() {
                 with data. 
                 Learnt technical skills include but are not limited to:
             </p>
-                <table style={{position: "relative", "left": "-14vw", "top": "20vh"}}>
+                <table>
                     <tr>
                         <th>Python</th>
                         <th>Full stack development</th>

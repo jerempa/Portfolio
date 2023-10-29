@@ -19,8 +19,7 @@ body {
 .about-font {
   font-size: 18px;
   position: relative;
-  top: 20vh;
-  left: -14vw;
+  
 }
 
 .p {
@@ -34,7 +33,7 @@ table {
   border-spacing: 16px;
   table-layout: fixed;
   position: relative;
-  left: -14vw;
+  width: 100%
 }
 
 
@@ -73,6 +72,12 @@ table {
   flex: 33.33%;
   padding: 5px;
 }
+
+.columnabout {
+  flex: 50%;
+  padding: 5px;
+}
+
 
 
 
