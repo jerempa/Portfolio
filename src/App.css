@@ -19,9 +19,8 @@ body {
 .about-font {
   font-size: 40px;
   position: relative;
-  top: 150px;
-  left: -400px;
-  max-width: 1600px;
+  top: 15vh;
+  left: -14vw;
 }
 
 .p {
@@ -60,7 +59,7 @@ table {
 
 
 .imgabout {
-  width: 800px; 
+  width: 32vw; 
   height: auto; 
   position: relative;
 }

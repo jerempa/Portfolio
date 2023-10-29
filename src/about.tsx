@@ -7,7 +7,7 @@ function About() {
 
   return (
     <section id="home">
-      <h1 style={{  position: "relative", "left": "1350px", "top": "150px", fontSize: "60px"}}>About Me</h1>
+      <h1 style={{  position: "relative", "left": "50vw", "top": "15vh", fontSize: "60px"}}>About Me</h1>
       <div className="row">
         <div className="column" >
           <img src={myImage} className="imgabout" alt="" />
@@ -22,7 +22,7 @@ function About() {
                 with data. 
                 Learnt technical skills include but are not limited to:
             </p>
-                <table style={{position: "relative", "left": "-400px", "top": "150px"}}>
+                <table style={{position: "relative", "left": "-14vw", "top": "15vh"}}>
                     <tr>
                         <th>Python</th>
                         <th>Full stack development</th>
