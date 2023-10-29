@@ -12,9 +12,9 @@ function Showcase() {
         <section id="showcase">
         <h1 style={{  position: "relative", "left": "950px", fontSize: "60px"}}>Showcase</h1>
         <div className="row">
-            <div className="col-lg-10">
-                    <h2 className="programming">Articles written for Ruotuväki online</h2>
-                        <div className="programming-font">
+            <div className="column">
+                    <h2 style={{"position": "relative", "fontSize": "50px"}}>Articles written for Ruotuväki online</h2>
+                        <div style={{"position": "relative", "fontSize": "40px"}}>
                             <ul>
                                 <li> <a href="https://ruotuvaki.fi/-/arktisen-koulutuksen-karkiosaaja-40-vuotta" target="_blank">Arktisen koulutuksen kärkiosaaja 40 vuotta</a> </li>
                                 <li> <a href="https://ruotuvaki.fi/-/1951245/vuoden-2019-ansioituneet-sotilasurheilijat-palkittiin" target="_blank">Vuoden 2019 ansioituneet sotilasurheilijat palkittiin</a> </li>
@@ -25,8 +25,8 @@ function Showcase() {
         </div>
         <div className="row">
             <div className="column">
-                <h2 className="programming"> Programming </h2>
-                    <p className="programming-font">
+                <h2 style={{"position": "relative", "fontSize": "50px"}}> Programming </h2>
+                    <p style={{"position": "relative", "fontSize": "40px"}}>
                         The project I have done both with Python and JavaScript can be found on my <a href="https://github.com/jerempa" target="_blank">Github</a>.
                         There are projects that are related to course tasks but most of them are hobby projects of different sizes. The Python projects are mostly built from scratch
                         by myself (including help from Stackoverflow and such) and one JS project is based on source code by other people. The source code for this portfolio

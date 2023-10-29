@@ -24,45 +24,6 @@ body {
   max-width: 1600px;
 }
 
-.cv-font {
-  font-size: 40px;
-  position: relative;
-}
-
-.experience {
-  font-size: 50px;
-  position: relative;
-}
-
-.language-font {
-  font-size: 40px;
-  position: relative;
-}
-
-.language {
-  font-size: 50px;
-  position: relative;
-}
-
-.it-font {
-  font-size: 40px;
-  position: relative;
-}
-
-.it {
-  font-size: 50px;
-  position: relative;
-}
-
-.programming-font {
-  font-size: 40px;
-  position: relative;
-}
-
-.programming {
-  font-size: 50px;
-  position: relative;
-}
 
 .snapshots {position: relative;
 }

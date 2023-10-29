@@ -34,8 +34,8 @@ function CV() {
         <h1 style={{  position: "relative", "left": "950px", fontSize: "60px"}}>Curriculum Vitae</h1>
         <div className="row">
             <div className="column">
-                    <h2 className="experience">Work experience</h2>
-                        <div className="cv-font">
+                    <h2 style={{"position": "relative", "fontSize": "50px"}}>Work experience</h2>
+                        <div style={{"position": "relative", "fontSize": "40px"}}>
                         <ul>
                             {jobs.map((job, index) => (
                             <li key={index}>
@@ -51,8 +51,8 @@ function CV() {
                         </div>
             </div>
             <div className="column">
-                <h2 className="language"> Language skills </h2>
-                    <div className="language-font">
+                <h2 style={{"position": "relative", "fontSize": "50px"}}> Language skills </h2>
+                    <div style={{"position": "relative", "fontSize": "40px"}}>
                         <ul>
                             <li> Finnish (Mother tongue) </li>
                             <li> English (Excellent) </li>
@@ -62,8 +62,8 @@ function CV() {
                     </div>
             </div>
             <div className="column">
-                <h2 className="it"> IT skills </h2>
-                    <div className="it-font">
+                <h2 style={{"position": "relative", "fontSize": "50px"}}> IT skills </h2>
+                    <div style={{"position": "relative", "fontSize": "40px"}}>
                         <ul>
                             <li> Microsoft Office (Excellent) </li>
                             <li> Power BI (Excellent) </li>
