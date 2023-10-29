@@ -4,7 +4,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Brief
 
-Decided to make a simple portfolio for myself and try to improve my web dev skills.
+Decided to make a simple portfolio for myself and try to improve my web dev skills. The portfolio is deployed [here](https://jerempa.github.io/Portfolio/) using Github pages.
 
 ## Available Scripts
 
