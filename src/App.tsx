@@ -39,7 +39,7 @@ function App() {
       <LanguageSwitcher />
       <NavBar />
       <About translate = {t} />
-      <CV />
+      <CV translate = {t} />
       <Showcase />
     </div>
   );

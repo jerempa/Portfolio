@@ -1,5 +1,24 @@
 {
     "about-header": "Minusta",
     "about": "Morjes mun nimi on Jere Pankka ja oon Aallossa maisteriopiskelijana pääaineena Information and Service Management (ISM). Kauppiksen kanditutkinnon suorittaminen ISM pääaineena ja tietotekniikka sivuaineena on tuonu mulle erinomaisen pohjan taloudessa, data-analytiikassa sekä vankan osaamisen webbidevauksessa. Perusteet on tullu koulun kautta mut suurin osa osaamisesta perustuu mun harrastuneisuuteen. Oon aina valmis oppimaan uusista teknologiosita ja pyrinkin kehittämään mun osaamista erilaisten projektien avulla. Tekniseen osaamiseen kuuluu tällä hetkellä muun muassa:", 
-    "about1": "Tulevaisuudessa nään itteni työskentelemässä joko webbidevaamisen tai data-analytiikan parissa. Tällä hetkellä suunta on oikea, ja toivottavasti tulevaisuudessa työtehtävät monipuolistuu ja vastuu kasvaa, kun opinnot lähestyy loppua."
+    "about1": "Tulevaisuudessa nään itteni työskentelemässä joko webbidevaamisen tai data-analytiikan parissa. Tällä hetkellä suunta on oikea, ja toivottavasti tulevaisuudessa työtehtävät monipuolistuu ja vastuu kasvaa, kun opinnot lähestyy loppua.",
+    "work-exp": "Työkokemus",
+    "jobs": [
+        "Alma Talent Oy (18.2.2022-)",
+        "Fazer Leipomot Oy (14.4.2020-5.8.2022)",
+        "Puolustusvoimat (4.9.2020-11.3.2020)",
+        "Mediatalo ESA (22.5.2019-20.5.2019)",
+        "Vierumäki Golf Club Oy (4.6.2018-12.8.2018)"
+      ],
+    "jobdesc": [
+        "Ensimmäiset 14 kuukautta tilinpäätösten oikaisemista. 5/2023 lähtien päävastuu Power BI -projektista. Tämä tuonut paljon uusia vastuita, kuten projektinhallintaa, haastatteluiden järjestämistä and niiden pitämistä kollegoiden kanssa, Power BI -ympäristön kehitys, palautteen kerääminen jne.",
+        "Tehdastyöntekijänä. Täysiaikaisena 4/2020-8/2020 sekä 6/2021-8/2021 ja osa-aikaisena 8/2020-5/2021 ja 8/2021-8/2022.",
+        "Ruotuväkilehdessä levikkisihteerinä. Asikaspalvelutehtäviä, Ruotuväen edustamista tapahtumissa esimerkiksi Studia-messuilla sekä juttujen kirjoittamista nettiin ja printtiin.",
+        "Sanomalehtien jakamista yövuorossa",
+        "Golffiin liittyviä työtehtäviä esimerkiksi pallojen keräämistä rangelta."
+      ],
+    "lang-ski": "Kielitaito",
+    "lang-ski-list": ["suomi (Äidinkieli)", "englanti (Erinomainen)", "ruotsi (Tyydyttävä)", "ranska (Perusteet)"],
+    "IT-ski": "IT osaaminen",
+    "IT-ski-list": ["Microsoft Office (Erinomainen)", "Power BI (Erinomainen)", "SQL (Taitava)", "Python (Taitava)", "Web development (Kyvykäs)"]
 }
