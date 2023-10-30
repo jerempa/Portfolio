@@ -17,12 +17,12 @@ const LanguageSwitcher = () => {
         onClick={() => handleLanguageChange({ target: { value: 'en' } } as React.ChangeEvent<HTMLSelectElement>)}
         style={{ marginRight: '0.5vw'}}
       >
-        English
+        {i18n.t("english")}
       </button>
       <button
         onClick={() => handleLanguageChange({ target: { value: 'fi' } } as React.ChangeEvent<HTMLSelectElement>)}
       >
-        Finnish
+        {i18n.t("finnish")}
       </button>
     </div>
   );
