@@ -2,10 +2,18 @@ import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faLinkedin, faGithub } from "@fortawesome/free-brands-svg-icons";
+import { TFunction } from "i18next";
 
-function NavBar() {
+import LanguageSwitcher from './languageswitch';
+
+export interface ITranslate {
+  translate: TFunction
+}
+
+function NavBar({translate}: ITranslate) {
     return (
-        <nav className="navbar navbar-expand-lg fixed-top navbarScroll">
+        <nav className="navbar navbar-expand-lg fixed-top navbarScroll" >
+        <LanguageSwitcher />
             <div className="container">
                 <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent">
                     <span className="navbar-toggler-icon"></span>
@@ -13,13 +21,13 @@ function NavBar() {
                 <div className="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul className="navbar-nav ms-auto">
                         <li className="nav-item active">
-                            <a className="nav-link" href="#home">Home</a>
+                            <a className="nav-link" href="#home">{translate("homenav")}</a>
                         </li>
                         <li className="nav-item">
                             <a className="nav-link" href="#cv">CV</a>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link" href="#showcase">Showcase</a>
+                            <a className="nav-link" href="#showcase">{translate("showcase")}</a>
                         </li>
                         <li className="nav-item">
                             <a href="https://github.com/jerempa" target="_blank">

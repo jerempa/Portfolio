@@ -36,8 +36,7 @@ function App() {
   const { t } = useTranslation();
   return (
     <div className="App">
-      <LanguageSwitcher />
-      <NavBar />
+      <NavBar translate = {t} />
       <About translate = {t} />
       <CV translate = {t} />
       <Showcase translate = {t}  />

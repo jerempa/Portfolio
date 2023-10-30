@@ -13,7 +13,7 @@ function About({translate}: ITranslate) {
     <section id="home">
       <div className="row mt-4">
         <div className="col-lg-4">
-          <img src={myImage} className="imgabout" alt="" />
+          <img src={myImage} className="imgabout" alt="" style={{"zIndex": -2}} />
         </div>
         <div className="col-lg-8">
         <h1 style={{  position: "relative", "left": "25vw", "top": "7vh", fontSize: "22px"}}>{translate("about-header")}</h1>

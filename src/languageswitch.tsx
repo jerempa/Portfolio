@@ -12,10 +12,19 @@ const LanguageSwitcher = () => {
   };
 
   return (
-    <select value={i18n.language} onChange={handleLanguageChange} style={{position: "relative", "left": "50vw", "top": "15vh"}}>
-      <option value="en">English</option>
-      <option value="fi">Finnish</option>
-    </select>
+    <div className="language-switcher">
+      <button
+        onClick={() => handleLanguageChange({ target: { value: 'en' } } as React.ChangeEvent<HTMLSelectElement>)}
+        style={{ marginRight: '0.5vw'}}
+      >
+        English
+      </button>
+      <button
+        onClick={() => handleLanguageChange({ target: { value: 'fi' } } as React.ChangeEvent<HTMLSelectElement>)}
+      >
+        Finnish
+      </button>
+    </div>
   );
 };
 

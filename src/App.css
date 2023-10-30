@@ -6,6 +6,15 @@ body {
   color: #333; 
 }
 
+.language-switcher {
+  display: flex;
+  align-items: center;
+}
+
+.language-switcher button {
+  margin-right: 10px;
+}
+
 .nav-item {
   font-size: 22px;
   color: #333;

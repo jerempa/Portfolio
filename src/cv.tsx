@@ -36,7 +36,7 @@ function CV({translate}: ITranslate) {
                                 <span><strong>{job}</strong><br />{jobDescriptions[index]}</span>
                                 ) : `${job.slice(0, job.length)}`}
                                 <button onClick={() => toggleReadMore(index)}>
-                                {showFullText[index] ? 'Read Less' : 'Read More'}
+                                {showFullText[index] ? translate("read_less") : translate("read_more")}
                             </button>
                             </li>
                             ))}
