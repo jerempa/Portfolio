@@ -16,7 +16,7 @@ function About({translate}: ITranslate) {
           <img src={myImage} className="imgabout" alt="" />
         </div>
         <div className="col-lg-8">
-        <h1 style={{  position: "relative", "left": "25vw", "top": "7vh", fontSize: "22px"}}>About Me</h1>
+        <h1 style={{  position: "relative", "left": "25vw", "top": "7vh", fontSize: "22px"}}>{translate("about-header")}</h1>
             <p className="about-font">
               {translate("about")}
             </p>
