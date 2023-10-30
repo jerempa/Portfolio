@@ -1,9 +1,13 @@
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import myImage from './IMG_20220219_180602 (1).jpg';
+import { TFunction } from "i18next";
 
+export interface ITranslate {
+  translate: TFunction
+}
 
-function About() {
+function About({translate}: ITranslate) {
 
   return (
     <section id="home">
@@ -14,13 +18,7 @@ function About() {
         <div className="col-lg-8">
         <h1 style={{  position: "relative", "left": "25vw", "top": "7vh", fontSize: "22px"}}>About Me</h1>
             <p className="about-font">
-                My name is Jere Pankka and I'm a M.Sc. Information and Service Management (ISM) student at Aalto University.
-                Completing Information and Service Management as major and Computer Science as a minor
-                in my Bachelor's degree has brought me strong expertise in business and data analysis as
-                well as intermediate knowledge in web development. The basics have come through the degree
-                , however programming as a hobby has brought most of my skillset. I'm eager to learn more about new technologies and being able to work
-                with data. 
-                Learnt technical skills include but are not limited to:
+              {translate("about")}
             </p>
                 <table>
                     <tr>
@@ -45,11 +43,7 @@ function About() {
                     </tr>
                 </table>
                 <p className="about-font">
-                I'm eager to learn more about new technologies and being able to work
-                with data. Therefore, I'm hoping I can pursue a career as a data analyst or 
-                a software developer. I'm at the right track as I'm working as
-                a Power BI analyst and hopefully I'm able to gain more responsibility and diversify
-                my work tasks as my studies are coming to an end in a couple of years.
+                {translate("about1")}
               </p>
         </div>
       </div>
