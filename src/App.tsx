@@ -3,7 +3,7 @@ import NavBar from "./navbar";
 import About from "./about";
 import CV from "./cv";
 import Showcase from './showcase';
-import LanguageSwitcher from './languageswitch';
+import Card from './cards';
 
 import { useTranslation } from "react-i18next";
 
@@ -35,7 +35,7 @@ i18n.use(initReactI18next).init({
 function App() {
   const { t } = useTranslation();
   return (
-    <div className="App">
+    <div>
       <NavBar translate = {t} />
       <About translate = {t} />
       <CV translate = {t} />
