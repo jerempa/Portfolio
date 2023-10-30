@@ -31,6 +31,7 @@
     "prog": "Programming projects",
     "prog_text": "The project I have done both with Python and JavaScript can be found on my Github. There are projects that are related to course tasks but most of them are hobby projects of different sizes. The Python projects are mostly built from scratch by myself (including help from Stackoverflow and such) and one JS project is based on source code by other people.",
     "snapshots": "Snapshots",
-    "fig1_desc": "Drinking game 'Ravit'.",
-    "fig2_desc": "Fig 2, 3 and 4. Python program for finding apartments from Oikotie."
+    "ravit_desc": "Program made with React and Typescript that is an electronic version of the drinking game Ravit.",
+    "apartmentfinder_desc": "Python program that searches apartments from Oikotie based on criteria given.",
+    "kide_desc": "Python program for buying tickets from Kide.app. Has both auto-clicker version done with Selenium as well as API version done with requests and bs4."
 }
