@@ -40,7 +40,7 @@ function App() {
       <NavBar />
       <About translate = {t} />
       <CV translate = {t} />
-      <Showcase />
+      <Showcase translate = {t}  />
     </div>
   );
 }
