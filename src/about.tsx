@@ -20,12 +20,15 @@ function About({translate}: ITranslate) {
             <p className="about-font">
               {translate("about")}
             </p>
-                <table>
+                <table className="styled-table">
+                  <thead>
                     <tr>
                         <th>Python</th>
                         <th>Full stack development</th>
                         <th>Other</th>
                     </tr>
+                  </thead>
+                  <tbody> 
                     <tr>
                         <td>Pandas, Numpy</td>
                         <td>React, Redux</td>
@@ -41,6 +44,7 @@ function About({translate}: ITranslate) {
                         <td>MongoDB etc.</td>
                         <td>Project management etc.</td>
                     </tr>
+                  </tbody>
                 </table>
                 <p className="about-font">
                 {translate("about1")}
