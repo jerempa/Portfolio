@@ -13,13 +13,13 @@ const LanguageSwitcher = () => {
 
   return (
     <div className="language-switcher">
-      <button
+      <button className="styled-button"
         onClick={() => handleLanguageChange({ target: { value: 'en' } } as React.ChangeEvent<HTMLSelectElement>)}
         style={{ marginRight: '0.5vw'}}
       >
         {i18n.t("english")}
       </button>
-      <button
+      <button className="styled-button"
         onClick={() => handleLanguageChange({ target: { value: 'fi' } } as React.ChangeEvent<HTMLSelectElement>)}
       >
         {i18n.t("finnish")}

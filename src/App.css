@@ -131,6 +131,19 @@ body {
     border-bottom: 2px solid #009879;
   }
 
+  .styled-button {
+    padding: 12px 15px;
+    background-color: #009879;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+  }
+
+  .styled-button:hover {
+    background-color: #007766;
+  }
 
 @keyframes gradient {
   0% {
