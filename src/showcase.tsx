@@ -19,7 +19,7 @@ function Showcase({translate}: ITranslate) {
 
     return (
         <section id="showcase">
-                <h1 style={{  position: "relative", "left": "35vw", fontSize: "22px", paddingTop: "10vh"}}>{translate("showcase")}</h1>
+                <h1 className="text-center">{translate("showcase")}</h1>
                 <h2 className="header">{translate("articleheader")}</h2>
 
              <div className="container mt-3" style= {{"paddingBottom": "3vh"}}>
@@ -30,8 +30,8 @@ function Showcase({translate}: ITranslate) {
                 <div className="card-body">
                     <h4 className="card-title">Arktisen koulutuksen kärkiosaaja 40 vuotta</h4>
                     <p className="card-text">Lapin jääkäripataljoonasta ja Rovaniemen ilmatorjuntapatteristosta muodostuva Jääkäriprikaati perustettiin 1.10.1979.</p>
-                    <div className="text-center">
-                    <a href="https://ruotuvaki.fi/-/arktisen-koulutuksen-karkiosaaja-40-vuotta" className="btn btn-success" target="_blank">Link</a>
+                    <div className="text-center" style={{"position": "relative"}}>
+                        <a href="https://ruotuvaki.fi/-/arktisen-koulutuksen-karkiosaaja-40-vuotta" className="btn btn-success" target="_blank">Link</a>
                     </div>
                 </div>
             </div>
@@ -42,7 +42,7 @@ function Showcase({translate}: ITranslate) {
                 <div className="card-body">
                     <h4 className="card-title">Vuoden 2019 ansioituneet sotilasurheilijat palkittiin</h4>
                     <p className="card-text">Puolustusvoimat palkitsi Säätytalolla vuoden 2019 sotilasurheilijoita ja muita sotilasurheilun toimijoita. Painijat nappasivat yksilöpalkinnot; Kainuun prikaati puolestaan loisti joukko-osastojen välisten palkintojen jaossa.</p>
-                    <div className="text-center">
+                    <div className="text-center" style={{"position": "relative"}}>
                     <a href="https://ruotuvaki.fi/-/1951245/vuoden-2019-ansioituneet-sotilasurheilijat-palkittiin" className="btn btn-success" target="_blank"> Link</a>
                     </div>
                 </div>

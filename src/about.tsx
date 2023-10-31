@@ -46,7 +46,7 @@ function About({translate}: ITranslate) {
                     </tr>
                   </tbody>
                 </table>
-                <p className="about-font">
+                <p style={{"position": "relative", "top": "2vh", "fontSize": "18px"}}>
                 {translate("about1")}
               </p>
         </div>

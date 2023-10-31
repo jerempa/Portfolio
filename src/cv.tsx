@@ -24,7 +24,7 @@ function CV({translate}: ITranslate) {
 
     return (
         <section id="cv">
-        <h1 style={{  position: "relative", "left": "35vw", fontSize: "22px", "paddingTop": "10vh"}}>Curriculum Vitae</h1>
+        <h1 className="text-center">Curriculum Vitae</h1>
         <div className="row">
             <div className="column">
                     <h2 className="header">{translate("work-exp")}</h2>
