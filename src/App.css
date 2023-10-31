@@ -15,14 +15,35 @@ body {
   margin-right: 10px;
 }
 
-.nav-item {
-  font-size: 22px;
-  color: #333;
+.navbar {
+  background-color: #009879; /* Change this to your desired background color */
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
 }
 
-.navbarScroll {
-  background-color: grey;
+.navbar .nav-item {
+  font-size: 22px;
+  color: #ffffff; /* Change this to your desired text color */
+  padding: 0.5px 15px; /* Add some padding to the nav items */
 }
+
+.navbar .nav-item:hover {
+  background-color: #007766; /* Change this to the hover color you prefer */
+}
+
+.navbar a.nav-link {
+  color: #ffffff; /* Change this to your desired text color */
+  text-decoration: none;
+}
+
+/* If you want to style the social media icons in the navbar */
+.navbar .nav-item a {
+  color: #ffffff; /* Change this to your desired icon color */
+}
+
+.navbar .nav-item a:hover {
+  color: #007766; /* Change this to the hover color you prefer for the icons */
+}
+
 
 .about-font {
   font-size: 18px;
