@@ -110,6 +110,26 @@ body {
   padding: 5px;
 }
 
+  .styled-list {
+    margin: 25px 0;
+    font-size: 0.9em;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+    position: relative;
+  }
+
+  .styled-list li {
+    padding: 12px 15px;
+    border-bottom: 1px solid #dddddd;
+    background-color: #f3f3f3;
+  }
+
+  .styled-list li:nth-child(even) {
+    background-color: #f3f3f3;
+  }
+
+  .styled-list li:last-child {
+    border-bottom: 2px solid #009879;
+  }
 
 
 @keyframes gradient {

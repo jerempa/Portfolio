@@ -29,7 +29,7 @@ function CV({translate}: ITranslate) {
             <div className="column">
                     <h2 className="header">{translate("work-exp")}</h2>
                         <div className="text">
-                        <ul>
+                        <ul className="styled-list">
                             {jobs.map((job: string, index: number) => (
                             <li key={index}>
                                 {showFullText[index] ? (
@@ -46,7 +46,7 @@ function CV({translate}: ITranslate) {
             <div className="column">
                 <h2 className="header"> {translate("lang-ski")} </h2>
                     <div className="text">
-                        <ul>
+                        <ul className="styled-list">
                             {language_skills.map((lang: string, index: number) => (
                                 <li key={index}> {lang} </li>
                             ))
@@ -57,7 +57,7 @@ function CV({translate}: ITranslate) {
             <div className="column">
                 <h2 className="header"> {translate("IT-ski")} </h2>
                     <div className="text">
-                        <ul>
+                        <ul className="styled-list">
                             {it_skills.map((it: string, index: number) => (
                                 <li key={index}> {it} </li>
                             ))
