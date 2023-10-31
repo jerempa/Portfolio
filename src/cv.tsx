@@ -27,7 +27,7 @@ function CV({translate}: ITranslate) {
         <h1 className="text-center">Curriculum Vitae</h1>
         <div className="row">
             <div className="column">
-                    <h2 className="header">{translate("work-exp")}</h2>
+                    <h2 className="text-center">{translate("work-exp")}</h2>
                         <div className="text">
                         <ul className="styled-list">
                             {jobs.map((job: string, index: number) => (
@@ -44,7 +44,7 @@ function CV({translate}: ITranslate) {
                         </div>
             </div>
             <div className="column">
-                <h2 className="header"> {translate("lang-ski")} </h2>
+                <h2 className="text-center"> {translate("lang-ski")} </h2>
                     <div className="text">
                         <ul className="styled-list">
                             {language_skills.map((lang: string, index: number) => (
@@ -55,7 +55,7 @@ function CV({translate}: ITranslate) {
                     </div>
             </div>
             <div className="column">
-                <h2 className="header"> {translate("IT-ski")} </h2>
+                <h2 className="text-center"> {translate("IT-ski")} </h2>
                     <div className="text">
                         <ul className="styled-list">
                             {it_skills.map((it: string, index: number) => (
