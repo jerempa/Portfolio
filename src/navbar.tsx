@@ -27,16 +27,16 @@ function NavBar({translate}: ITranslate) {
                             <a className="nav-link" href="#cv">CV</a>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link" href="#showcase">{translate("showcase")}</a>
+                            <a className="nav-link" href="#showcase">Portfolio</a>
                         </li>
                         <li className="nav-item">
                             <a href="https://github.com/jerempa" target="_blank">
-                                <FontAwesomeIcon icon={faGithub} style={{ position: "relative", paddingLeft: "1vw", fontSize: "40px", color: "#070709" }} />
+                                <FontAwesomeIcon icon={faGithub} style={{ position: "relative",  paddingTop: "1vh", fontSize: "40px", color: "#070709" }} />
                             </a>
                         </li>
                         <li className="nav-item">
                             <a href="https://www.linkedin.com/in/jere-pankka-806003289/" target="_blank">
-                                <FontAwesomeIcon icon={faLinkedin} style={{ position: "relative", paddingLeft: "1vw", fontSize: "40px", color: "#0085AE" }} />
+                                <FontAwesomeIcon icon={faLinkedin} style={{ position: "relative", paddingTop: "1vh", fontSize: "40px", color: "#0085AE" }} />
                             </a>
                         </li>
                     </ul>

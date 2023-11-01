@@ -16,32 +16,31 @@ body {
 }
 
 .navbar {
-  background-color: #009879; /* Change this to your desired background color */
+  background-color: #009879;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
 }
 
 .navbar .nav-item {
   font-size: 22px;
-  color: #ffffff; /* Change this to your desired text color */
-  padding: 0.5px 15px; /* Add some padding to the nav items */
+  color: #ffffff; 
+  padding: 0.5px 15px; 
 }
 
 .navbar .nav-item:hover {
-  background-color: #007766; /* Change this to the hover color you prefer */
+  background-color: #007766; 
 }
 
 .navbar a.nav-link {
-  color: #ffffff; /* Change this to your desired text color */
+  color: #ffffff; 
   text-decoration: none;
 }
 
-/* If you want to style the social media icons in the navbar */
 .navbar .nav-item a {
-  color: #ffffff; /* Change this to your desired icon color */
+  color: #ffffff; 
 }
 
 .navbar .nav-item a:hover {
-  color: #007766; /* Change this to the hover color you prefer for the icons */
+  color: #005550;
 }
 
 
@@ -127,44 +126,44 @@ body {
 }
 
 .columnabout {
-  flex: 50%;
-  padding: 5px;
+flex: 50%;
+padding: 5px;
 }
 
-  .styled-list {
-    margin: 25px 0;
-    font-size: 0.9em;
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
-    position: relative;
-  }
+.styled-list {
+  margin: 25px 0;
+  font-size: 0.9em;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+  position: relative;
+}
 
-  .styled-list li {
-    padding: 12px 15px;
-    border-bottom: 1px solid #dddddd;
-    background-color: #f3f3f3;
-  }
+.styled-list li {
+  padding: 12px 15px;
+  border-bottom: 1px solid #dddddd;
+  background-color: #f3f3f3;
+}
 
-  .styled-list li:nth-child(even) {
-    background-color: #f3f3f3;
-  }
+.styled-list li:nth-child(even) {
+  background-color: #f3f3f3;
+}
 
-  .styled-list li:last-child {
-    border-bottom: 2px solid #009879;
-  }
+.styled-list li:last-child {
+  border-bottom: 2px solid #009879;
+}
 
-  .styled-button {
-    padding: 12px 15px;
-    background-color: #009879;
-    color: #ffffff;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
-  }
+.styled-button {
+  padding: 12px 15px;
+  background-color: #009879;
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
 
-  .styled-button:hover {
-    background-color: #007766;
-  }
+.styled-button:hover {
+  color: #005550;  
+}
 
 @keyframes gradient {
   0% {

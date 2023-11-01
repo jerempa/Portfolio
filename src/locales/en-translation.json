@@ -26,7 +26,6 @@
     "lang-ski-list": ["Finnish (Mother tongue)", "English (Excellent)", "Swedish (Satisfactory)", "French (Basics)"],
     "IT-ski": "IT skills",
     "IT-ski-list": ["Microsoft Office (Excellent)", "Power BI (Excellent)", "SQL (Proficient)", "Python (Proficient)", "Web development (Competent)"],
-    "showcase": "Showcase",
     "articleheader": "Articles written for Ruotuväki online",
     "prog": "Programming projects",
     "prog_text": "The project I have done both with Python and JavaScript can be found on my Github. There are projects that are related to course tasks but most of them are hobby projects of different sizes. The Python projects are mostly built from scratch by myself (including help from Stackoverflow and such) and one JS project is based on source code by other people.",
