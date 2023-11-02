@@ -1,4 +1,5 @@
 import './styles/about.css';
+import './styles/App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import myImage from './images/IMG_20220219_180602 (1).jpg';
 import { TFunction } from "i18next";

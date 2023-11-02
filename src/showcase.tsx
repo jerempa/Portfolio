@@ -1,4 +1,5 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
+import './styles/App.css';
 import Card from './cards';
 
 import Pikis_jp from './images/Pikis_jp.jpg';

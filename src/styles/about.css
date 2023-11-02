@@ -1,3 +1,11 @@
+body {
+    background: linear-gradient(135deg, #f0f0f0, #d3d3d3);
+    font-family: Arial, sans-serif; 
+    margin: 0;
+    padding: 0;
+    color: #333; 
+  }
+
 .about-font {
 font-size: 18px;
 position: relative;

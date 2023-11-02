@@ -1,4 +1,5 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
+import './styles/App.css';
 import { TFunction } from "i18next";
 
 import Ravit from './images/Ravit.jpg';
