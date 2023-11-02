@@ -33,5 +33,5 @@
     "snapshots": "Esimerkkejä",
     "ravit_desc": "Reactilla ja Typescriptillä tehty ohjelma, joka on elektroninen version Ravit-juomapelistä.",
     "apartmentfinder_desc": "Python-ohjelma, joka etsii vuokra-asuntoja Oikotieltä annettujen kriteerien perusteella.",
-    "kide_desc": "Python-ohjelma, jonka avulla saa ostettu lippuja Kide.appista. Kaks eri versiota, josta toinen on auto-clicker Seleniumin avulla ja toinen API-versio requests- ja bs4-kirjastojen avulla."
+    "kide_desc": "Python-ohjelma, jonka avulla saa ostettu lippuja Kide.appista. Toinen versio on auto-clicker Seleniumin avulla ja toinen API-versio requests- ja bs4-kirjastojen avulla."
 }

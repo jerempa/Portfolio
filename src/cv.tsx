@@ -27,7 +27,7 @@ function CV({translate}: ITranslate) {
         <div className="container">
         <h1 className="text-center">Curriculum Vitae</h1>
         <div className="row">
-            <div className="column">
+            <div className="col-lg-4">
                     <h2 className="text-center">{translate("work-exp")}</h2>
                         <div className="text">
                         <ul className="styled-list">
@@ -44,7 +44,7 @@ function CV({translate}: ITranslate) {
                             </ul>
                         </div>
             </div>
-            <div className="column">
+            <div className="col-lg-4">
                 <h2 className="text-center"> {translate("lang-ski")} </h2>
                     <div className="text">
                         <ul className="styled-list">
@@ -55,7 +55,7 @@ function CV({translate}: ITranslate) {
                         </ul>
                     </div>
             </div>
-            <div className="column">
+            <div className="col-lg-4">
                 <h2 className="text-center"> {translate("IT-ski")} </h2>
                     <div className="text">
                         <ul className="styled-list">
