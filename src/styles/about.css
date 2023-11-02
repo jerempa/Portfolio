@@ -39,3 +39,11 @@ background-color: #f3f3f3;
 .styled-table tbody tr:last-of-type {
 border-bottom: 2px solid #009879;
 }
+
+.imgabout {
+    width: 30vw; 
+    height: auto; 
+    position: relative;
+    left: -5.5vw;
+    top: 8vh;
+  }

@@ -1,4 +1,4 @@
-import './App.css';
+import './styles/cv.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import React, { useState } from 'react';
 import { TFunction } from "i18next";
