@@ -48,7 +48,6 @@ body {
   font-size: 18px;
   position: relative;
   top: 5vh;  
-
 }
 
 .p {
@@ -113,7 +112,8 @@ body {
   width: 30vw; 
   height: auto; 
   position: relative;
-  left: -5vw;
+  left: -5.5vw;
+  top: 8vh;
 }
 
 
