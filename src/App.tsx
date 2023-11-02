@@ -3,7 +3,6 @@ import NavBar from "./navbar";
 import About from "./about";
 import CV from "./cv";
 import Showcase from './showcase';
-import Card from './cards';
 
 import { useTranslation } from "react-i18next";
 
@@ -11,6 +10,7 @@ import i18n from "i18next";
 import { initReactI18next } from "react-i18next";
 import translationEN from "./locales/en-translation.json";
 import translationFI from "./locales/fi-translation.json";
+import translationSE from "./locales/se-translation.json";
 
 const resources = {
   en: {
@@ -19,6 +19,9 @@ const resources = {
   fi: {
     translation: translationFI,
   },
+  se: {
+    translation: translationSE
+  }
 };
 
 i18n.use(initReactI18next).init({
