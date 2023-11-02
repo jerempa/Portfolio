@@ -1,9 +1,9 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { TFunction } from "i18next";
 
-import Ravit from './Ravit.jpg';
-import RA2 from './Rent_apartment_finder2.png';
-import Kide from './Kideapp.jpg';
+import Ravit from './images/Ravit.jpg';
+import RA2 from './images/Rent_apartment_finder2.png';
+import Kide from './images/Kideapp.jpg';
 
 export interface ITranslate {
   translate: TFunction

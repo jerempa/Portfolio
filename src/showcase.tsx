@@ -1,9 +1,9 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Card from './cards';
 
-import Pikis_jp from './Pikis_jp.jpg';
-import Pikis_urheilu from './Pikis_urheilu.jpg';
-import Pikis_hornet from './Pikis_hornet.jpg';
+import Pikis_jp from './images/Pikis_jp.jpg';
+import Pikis_urheilu from './images/Pikis_urheilu.jpg';
+import Pikis_hornet from './images/Pikis_hornet.jpg';
 
 
 import { TFunction } from "i18next";
