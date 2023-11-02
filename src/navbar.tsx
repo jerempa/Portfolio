@@ -1,4 +1,4 @@
-import './App.css';
+import './styles/navbar.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faLinkedin, faGithub } from "@fortawesome/free-brands-svg-icons";

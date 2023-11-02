@@ -1,0 +1,51 @@
+.language-switcher {
+display: flex;
+align-items: center;
+}
+
+.language-switcher button {
+margin-right: 10px;
+}
+  
+.navbar {
+background-color: #009879;
+box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+.navbar .nav-item {
+font-size: 22px;
+color: #ffffff; 
+padding: 0.5px 15px; 
+}
+
+.navbar .nav-item:hover {
+background-color: #007766; 
+}
+
+.navbar a.nav-link {
+color: #ffffff; 
+text-decoration: none;
+}
+
+.navbar .nav-item a {
+color: #ffffff; 
+}
+
+.navbar .nav-item a:hover {
+color: #005550;
+}
+
+  
+.styled-button {
+padding: 12px 15px;
+background-color: #009879;
+color: #ffffff;
+border: none;
+border-radius: 5px;
+cursor: pointer;
+box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+.styled-button:hover {
+color: #005550;  
+}
