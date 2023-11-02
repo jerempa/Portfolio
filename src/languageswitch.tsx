@@ -22,6 +22,7 @@ const LanguageSwitcher = () => {
       </button>
       <button className="styled-button"
         onClick={() => handleLanguageChange({ target: { value: 'fi' } } as React.ChangeEvent<HTMLSelectElement>)}
+        style={{ marginRight: '0.5vw'}}
       >
         {i18n.t("finnish")}
       </button>
