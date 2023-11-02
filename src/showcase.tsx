@@ -19,6 +19,7 @@ function Showcase({translate}: ITranslate) {
 
     return (
         <section id="showcase">
+        <div className="container"> 
                 <h1 className="text-center">Portfolio</h1>
                 <h2 className="text-center">{translate("articleheader")}</h2>
 
@@ -64,13 +65,14 @@ function Showcase({translate}: ITranslate) {
     </div>
         <div className="row">
             <div className="column">
-                <h2 className="header"> {translate("prog")} </h2>
+                <h2 className="text-center"> {translate("prog")} </h2>
                     <p className="text">
                         {translate("prog_text")} <a href="https://github.com/jerempa/Portfolio" target="_blank">Portfolio-repo</a>
                     </p>
             </div>
         </div>
         <Card translate = {translate}/>
+        </div>
         </section>
     );
 }

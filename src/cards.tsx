@@ -14,7 +14,7 @@ function Card({translate}: ITranslate) {
 
   return (
     <div className="container mt-3" style= {{"paddingBottom": "3vh"}}>
-        <h2 className="text-center">{translate("snapshots")}</h2>
+        <h3 className="text-center">{translate("snapshots")}</h3>
         <div className="row"> 
         <div className="col-lg-4 mt-4">
             <div className="card" style={{"width": "100%", "height": "100%"}}>

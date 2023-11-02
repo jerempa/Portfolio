@@ -11,6 +11,7 @@ function About({translate}: ITranslate) {
 
   return (
     <section id="home">
+      <div className="container mt-2 pt-4">
       <div className="row mt-4">
         <div className="col-lg-4">
           <img src={myImage} className="imgabout" alt="" style={{"zIndex": -2}} />
@@ -50,6 +51,7 @@ function About({translate}: ITranslate) {
                 {translate("about1")}
               </p>
         </div>
+      </div>
       </div>
     </section>
   );
