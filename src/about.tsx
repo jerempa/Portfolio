@@ -32,14 +32,14 @@ function About({translate}: ITranslate) {
                   </thead>
                   <tbody> 
                     <tr>
-                        <td>Pandas, Numpy</td>
-                        <td>React, Redux</td>
-                        <td>SQL</td>
+                        <td>Pandas, Numpy,</td>
+                        <td>React.js, Redux,</td>
+                        <td>SQL,</td>
                     </tr>
                     <tr>
-                        <td>Scikit-learn, Matplotlib</td>
-                        <td>Node.js</td>
-                        <td>Power BI</td>
+                        <td>Scikit-learn, Matplotlib,</td>
+                        <td>Node.js,</td>
+                        <td>Power BI,</td>
                     </tr>
                     <tr>
                         <td>Requests, Beautiful Soup etc.</td>
