@@ -18,7 +18,7 @@ function About({translate}: ITranslate) {
           <img src={myImage} className="imgabout" alt="" style={{"zIndex": -2}} />
         </div>
         <div className="col-lg-8">
-        <h1 style={{  position: "relative", "left": "25vw", "top": "7vh", fontSize: "22px"}}>{translate("about-header")}</h1>
+        <h1 style={{  position: "relative", "left": "25vw", "top": "7vh", fontSize: "1.375em"}}>{translate("about-header")}</h1>
             <p className="about-font">
               {translate("about")}
             </p>
@@ -48,7 +48,7 @@ function About({translate}: ITranslate) {
                     </tr>
                   </tbody>
                 </table>
-                <p style={{"position": "relative", "top": "2vh", "fontSize": "18px"}}>
+                <p style={{"position": "relative", "top": "2vh", "fontSize": "1.125em"}}>
                 {translate("about1")}
               </p>
         </div>
