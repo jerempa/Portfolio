@@ -2,6 +2,7 @@ import React from "react";
 import { useTranslation } from "react-i18next";
 import './styles/App.css';
 import './styles/navbar.css';
+import 'bootstrap/dist/js/bootstrap.bundle.min.js';
 
 
 const LanguageSwitcher = () => {
@@ -31,6 +32,9 @@ const LanguageSwitcher = () => {
       >
         {i18n.t("swedish")}
       </button>
+      <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent">
+                  <span className="navbar-toggler-icon"></span>
+        </button>
     </div>
   );
 };

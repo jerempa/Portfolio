@@ -38,7 +38,6 @@ function App() {
   const { t } = useTranslation();
   return (
     <div>
-      <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
       <NavBar translate = {t} />
       <About translate = {t} />
       <CV translate = {t} />
