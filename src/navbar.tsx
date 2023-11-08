@@ -19,17 +19,12 @@ function NavBar({translate}: ITranslate) {
     const [expanded, setExpanded] = useState(false);
 
     const closeNavMenu = () => {
-        console.log(expanded)
-        if (expanded) {
-            setExpanded(false);}
-        else {
-            setExpanded(true);
-        }
-    };
+        setExpanded(false);
+      };
     return (
         <nav className="navbar navbar-expand-lg fixed-top navbarScroll">
             <LanguageSwitcher />
-            <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" style={{"position": "relative", "right": "13vw"}} onClick={() => setExpanded(!expanded)}>
+            <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" style={{"position": "relative", "right": "22vw"}} onClick={() => setExpanded(!expanded)}>
                 <span className="navbar-toggler-icon"></span>
             </button>
                 <div className={`collapse navbar-collapse ${expanded ? 'show' : ''}`} id="navbarSupportedContent">

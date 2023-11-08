@@ -33,7 +33,7 @@ function About({translate}: ITranslate) {
                   <tbody> 
                     <tr>
                         <td>Pandas, Numpy,</td>
-                        <td>React.js, Redux,</td>
+                        <td>React.js, HTML, CSS</td>
                         <td>SQL,</td>
                     </tr>
                     <tr>
