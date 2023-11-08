@@ -2,6 +2,8 @@ import NavBar from "./navbar";
 import About from "./about";
 import CV from "./cv";
 import Showcase from './showcase';
+import Footer from './footer';
+
 
 import { useTranslation } from "react-i18next";
 
