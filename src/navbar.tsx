@@ -7,14 +7,26 @@ import { TFunction } from "i18next";
 
 import LanguageSwitcher from './languageswitch';
 
+import React, { useState } from 'react';
+
+
 export interface ITranslate {
   translate: TFunction
 }
 
 function NavBar({translate}: ITranslate) {
+
+    const [isNavOpen, setIsNavOpen] = useState(false);
+
+    const closeNavMenu = () => {
+      setIsNavOpen(false);
+    };
     return (
         <nav className="navbar navbar-expand-lg fixed-top navbarScroll" >
-        <LanguageSwitcher />
+            <LanguageSwitcher />
+            <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" style={{"position": "relative", "right": "13vw"}}>
+                <span className="navbar-toggler-icon"></span>
+            </button>
                 <div className="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul className="navbar-nav ms-auto">
                         <li className="nav-item active">

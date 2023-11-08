@@ -15,7 +15,7 @@ function About({translate}: ITranslate) {
       <div className="container">
       <div className="row mt-4">
         <div className="col-lg-4">
-          <img src={myImage} className="imgabout" alt="" style={{"zIndex": -2}} />
+          <img src={myImage} className="imgabout" alt="" style={{"zIndex": -1}} />
         </div>
         <div className="col-lg-8">
         <h1 style={{  position: "relative", "left": "25vw", "top": "7vh", fontSize: "1.375em"}}>{translate("about-header")}</h1>
