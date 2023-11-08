@@ -8,21 +8,14 @@ body {
 
 .about-font {
 font-size: 1.125em;
-position: relative;
-top: 5vh; 
-}
-
-.p {
-line-height: 1.6;
 }
   
 .styled-table {
 border-collapse: collapse;
-margin: 25px 0;
+margin: 5px 0;
 font-size: 0.9em;
 box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
 position: relative;
-top: 5vh;
 }
 
 .styled-table thead tr {
@@ -49,10 +42,7 @@ border-bottom: 2px solid #009879;
 }
 
 .imgabout {
-    width: 30vw; 
-    height: auto; 
+    width: 100%; 
     position: relative;
-    left: -5.5vw;
-    top: 6vh;
   }
 

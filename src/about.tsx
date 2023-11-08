@@ -12,13 +12,13 @@ function About({translate}: ITranslate) {
 
   return (
     <section id="home">
-      <div className="container">
+      <div className="container mt-4 pt-4">
       <div className="row mt-4">
         <div className="col-lg-4">
           <img src={myImage} className="imgabout" alt="" style={{"zIndex": -1}} />
         </div>
         <div className="col-lg-8">
-        <h1 style={{  position: "relative", "left": "25vw", "top": "7vh", fontSize: "1.375em"}}>{translate("about-header")}</h1>
+        <h3 className="text-center">{translate("about-header")}</h3>
             <p className="about-font">
               {translate("about")}
             </p>
@@ -48,7 +48,7 @@ function About({translate}: ITranslate) {
                     </tr>
                   </tbody>
                 </table>
-                <p style={{"position": "relative", "top": "2vh", "fontSize": "1.125em"}}>
+                <p style={{"fontSize": "1.125em"}}>
                 {translate("about1")}
               </p>
         </div>
