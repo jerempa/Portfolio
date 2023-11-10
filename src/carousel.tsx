@@ -39,37 +39,38 @@ function Carousel() {
     };
 
     return (
-        <div className="carousel">
-        <BsArrowLeftCircleFill onClick={prevSlide} className="arrow arrow-left" />
-        {data.images.map((item, idx) => {
-             {console.log(data.images, item, item.src)} 
-            return (
-            <img
-                src={item.src}
-                alt={item.alt}
-                key={idx}
-                className={slide === idx ? "slide" : "slide slide-hidden"}
-            />
-            );
-        })}
-        <BsArrowRightCircleFill
-            onClick={nextSlide}
-            className="arrow arrow-right"
-        />
-        <span className="indicators">
-            {data.images.map((_, idx) => {
-            return (
-                <button
-                key={idx}
-                className={
-                    slide === idx ? "indicator" : "indicator indicator-inactive"
-                }
-                onClick={() => setSlide(idx)}
-                ></button>
-            );
+        <div className="container mt-3"> 
+            <div className="carousel">
+            <BsArrowLeftCircleFill onClick={prevSlide} className="arrow arrow-left" />
+            {data.images.map((item, idx) => {
+                return (
+                <img
+                    src={item.src}
+                    alt={item.alt}
+                    key={idx}
+                    className={slide === idx ? "slide" : "slide slide-hidden"}
+                />
+                );
             })}
-        </span>
-        </div>
+            <BsArrowRightCircleFill
+                onClick={nextSlide}
+                className="arrow arrow-right"
+            />
+            <span className="indicators">
+                {data.images.map((_, idx) => {
+                return (
+                    <button
+                    key={idx}
+                    className={
+                        slide === idx ? "indicator" : "indicator indicator-inactive"
+                    }
+                    onClick={() => setSlide(idx)}
+                    ></button>
+                );
+                })}
+            </span>
+            </div>
+            </div>
     );
 };
 
