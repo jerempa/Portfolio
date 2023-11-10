@@ -1,6 +1,7 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './styles/App.css';
 import Card from './cards';
+import Carousel from './carousel';
 
 import Pikis_jp from './images/Pikis_jp.jpg';
 import Pikis_urheilu from './images/Pikis_urheilu.jpg';
@@ -72,6 +73,7 @@ function Showcase({translate}: ITranslate) {
             </div>
         </div>
         <Card translate = {translate}/>
+        <Carousel />
         </div>
         </section>
     );
