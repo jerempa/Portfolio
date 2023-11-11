@@ -21,27 +21,33 @@ function Carousel() {
         "images": [
           {
             "src": MOOC1,
-            "alt": "MOOC1"
+            "alt": "MOOC1",
+            "legend": "React app code snippet"
           },
           {
             "src": MOOC_frontend,
-            "alt": "MOOC2"
+            "alt": "MOOC2",
+            "legend": "React app code snippet, frontend"
           },
           {
             "src": MOOC_backend,
-            "alt": "MOOC3"
+            "alt": "MOOC3",
+            "legend": "React app code snippet, backend"
           },
           {
             "src": request_py,
-            "alt": "request_py"
+            "alt": "request_py",
+            "legend": "Beautifulsoup code snippet, Python"
           },
           {
             "src": validation_py,
-            "alt": "validation_py"
+            "alt": "validation_py",
+            "legend": "Input validation, Python"
           },
           {
             "src": other_py,
-            "alt": "other_py"
+            "alt": "other_py",
+            "legend": "Other code snippet, Python"
           }
         ]
       }
@@ -61,12 +67,15 @@ function Carousel() {
                 <BsArrowLeftCircleFill onClick={prevSlide} className="arrow arrow-left" />
                 {data.images.map((item, idx) => {
                     return (
-                    <img
-                        src={item.src}
-                        alt={item.alt}
-                        key={idx}
-                        className={slide === idx ? "slide" : "slide slide-hidden"}
-                    />
+                      <div className={slide === idx ? "slide" : "slide slide-hidden"}> 
+                        <img
+                            src={item.src}
+                            alt={item.alt}
+                            key={idx}
+                            className={slide === idx ? "slide" : "slide slide-hidden"}
+                        />
+                        <p className="legend"> {item.legend} </p>
+                        </div>
                     );
                 })}
                 <BsArrowRightCircleFill
