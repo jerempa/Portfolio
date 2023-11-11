@@ -7,10 +7,10 @@ import './styles/App.css';
 
 import MOOC1 from './images/MOOC1.jpg';
 import MOOC_frontend from './images/MOOC_frontend.jpg';
-import MOOC_backend from './images/MOOC_backend.jpg';
-import request_py from './images/request_py.jpg';
-import validation_py from './images/validation_py.jpg';
-import other_py from './images/other_py.jpg';
+import MOOC_backend from './images/MOOC_backend1.jpg';
+import request_py from './images/request_py1.jpg';
+import validation_py from './images/validation1_py.jpg';
+import other_py from './images/other_py1.jpg';
 
 
 
