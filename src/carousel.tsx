@@ -22,32 +22,39 @@ function Carousel() {
           {
             "src": MOOC1,
             "alt": "MOOC1",
-            "legend": "React app code snippet"
+            "legend": "React app code snippet. ",
+            "url": "https://github.com/jerempa/Full-stack-MOOC/blob/main/Osa7/bloglist-frontend/src/App.js"
+            
           },
           {
             "src": MOOC_frontend,
             "alt": "MOOC2",
-            "legend": "React app code snippet, frontend"
+            "legend": "React app code snippet, frontend. ",
+            "url": "https://github.com/jerempa/Full-stack-MOOC/blob/main/Osa7/bloglist-frontend/src/components/BlogForm.js"
           },
           {
             "src": MOOC_backend,
             "alt": "MOOC3",
-            "legend": "React app code snippet, backend"
+            "legend": "React app code snippet, backend. ",
+            "url": "https://github.com/jerempa/Full-stack-MOOC-osa3/blob/main/models/person.js"
           },
           {
             "src": request_py,
             "alt": "request_py",
-            "legend": "Beautifulsoup code snippet, Python"
+            "legend": "Beautifulsoup code snippet, Python. ",
+            "url": "https://github.com/jerempa/Rent-apartment-finder/blob/master/requests_file.py"
           },
           {
             "src": validation_py,
             "alt": "validation_py",
-            "legend": "Input validation, Python"
+            "legend": "Input validation, Python.",
+            "url": "https://github.com/jerempa/Rent-apartment-finder/blob/master/input_validation.py"
           },
           {
             "src": other_py,
             "alt": "other_py",
-            "legend": "Other code snippet, Python"
+            "legend": "Other code snippet, Python. ",
+            "url": "https://github.com/jerempa/Rent-apartment-finder/blob/master/criteria.py"
           }
         ]
       }
@@ -74,7 +81,9 @@ function Carousel() {
                             key={idx}
                             className={slide === idx ? "slide" : "slide slide-hidden"}
                         />
-                        <p className="legend"> {item.legend} </p>
+                          <p className="legend"> 
+                          {item.legend} <a href={item.url} target="_blank">Github-repository</a> 
+                          </p>
                         </div>
                     );
                 })}
