@@ -20,10 +20,12 @@ function Showcase({translate}: ITranslate) {
 
     return (
         <section id="showcase">
-        <div className="container"> 
+        <div className="container mt-4 pt-5"> 
+        <div className="row mt-3"> 
+
                 <h1 className="text-center">Portfolio</h1>
                 <h2 className="text-center">{translate("articleheader")}</h2>
-
+        </div>
              <div className="container mt-3" style= {{"paddingBottom": "3vh"}}>
         <div className="row"> 
         <div className="col-lg-4 mt-4">

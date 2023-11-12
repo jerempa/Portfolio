@@ -40,12 +40,12 @@ function NavBar({translate}: ITranslate) {
                         </li>
                         <li className="nav-item">
                             <a href="https://github.com/jerempa" target="_blank" onClick={() => closeNavMenu()}>
-                                <FontAwesomeIcon icon={faGithub} style={{ position: "relative",  paddingTop: "1vh", fontSize: "40px", color: "#070709" }} />
+                                <FontAwesomeIcon icon={faGithub} style={{ position: "relative",  paddingTop: "0.5vh", fontSize: "40px", color: "#070709" }} />
                             </a>
                         </li>
                         <li className="nav-item">
                             <a href="https://www.linkedin.com/in/jere-pankka-806003289/" target="_blank" onClick={() => closeNavMenu()}>
-                                <FontAwesomeIcon icon={faLinkedin} style={{ position: "relative", paddingTop: "1vh", fontSize: "40px", color: "#0085AE" }} />
+                                <FontAwesomeIcon icon={faLinkedin} style={{ position: "relative", paddingTop: "0.5vh", fontSize: "40px", color: "#0085AE" }} />
                             </a>
                         </li>
                     </ul>

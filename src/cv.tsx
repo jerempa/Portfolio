@@ -26,9 +26,9 @@ function CV({translate}: ITranslate) {
 
     return (
         <section id="cv">
-        <div className="container">
+        <div className="container mt-4 pt-5">
+        <div className="row mt-3">
         <h1 className="text-center">Curriculum Vitae</h1>
-        <div className="row">
             <div className="col-lg-4">
                     <h2 className="text-center">{translate("work-exp")}</h2>
                         <div className="text">
