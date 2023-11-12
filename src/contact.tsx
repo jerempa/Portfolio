@@ -18,7 +18,7 @@ export interface UserData {
     details: string;
 }
 
-export const  Contact = ({ translate, onSubmit }: ContactProps) => {
+export const Contact = ({ translate, onSubmit }: ContactProps) => {
     const [formData, setFormData] = React.useState<UserData>({ name: '', email: '', subject: '', details: '' });
 
     function handleInputChange(event: React.ChangeEvent<HTMLInputElement>) {
@@ -29,6 +29,7 @@ export const  Contact = ({ translate, onSubmit }: ContactProps) => {
       function handleSubmit(event: React.FormEvent<HTMLFormElement>) {
         event.preventDefault();
         onSubmit(formData);
+        setFormData({ ...formData, 'name': '', 'email': '', 'subject': '', 'details': '' });
       }
 
 
