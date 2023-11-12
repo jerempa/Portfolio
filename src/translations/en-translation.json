@@ -33,5 +33,6 @@
     "snapshots": "Snapshots",
     "ravit_desc": "Program made with React and Typescript that is an electronic version of the drinking game Ravit.",
     "apartmentfinder_desc": "Python program that searches apartments from Oikotie based on criteria given.",
-    "kide_desc": "Python program for buying tickets from Kide.app. Has both auto-clicker version done with Selenium as well as API version done with requests and bs4."
+    "kide_desc": "Python program for buying tickets from Kide.app. Has both auto-clicker version done with Selenium as well as API version done with requests and bs4.",
+    "form_desc": "If you wanna contact me, shoot me a message through LinkedIn, for instance. The purpose of this form is to practice writing code which connects to external database and stores the info."
 }
