@@ -13,10 +13,10 @@ export interface ITranslate {
 function Card({translate}: ITranslate) {
 
   return (
-    <div className="container mt-3" style= {{"paddingBottom": "3vh"}}>
+    <div className="container">
         <h3 className="text-center">{translate("snapshots")}</h3>
         <div className="row"> 
-        <div className="col-lg-4 mt-4">
+        <div className="col-lg-4 mt-2">
             <div className="card" style={{"width": "100%", "height": "100%"}}>
                 <img className="card-img-top" src={Ravit} alt="Ravit" style={{"width" :" 100%"}}/>
                 <div className="card-body">
@@ -28,7 +28,7 @@ function Card({translate}: ITranslate) {
                 </div>
             </div>
             </div>
-            <div className="col-lg-4 mt-4">
+            <div className="col-lg-4 mt-2">
             <div className="card" style={{"width": "100%", "height": "100%"}}>
                 <img className="card-img-top" src={RA2} alt="Rentapartmentfinder" style={{"width" :" 100%"}}/>
                 <div className="card-body">
@@ -40,7 +40,7 @@ function Card({translate}: ITranslate) {
                 </div>
             </div>
             </div>
-            <div className="col-lg-4 mt-4">
+            <div className="col-lg-4 mt-2">
             <div className="card" style={{"width": "100%", "height": "100%"}}>
                 <img className="card-img-top" src={Kide} alt="Kide" style={{"width" :" 100%"}}/>
                 <div className="card-body">

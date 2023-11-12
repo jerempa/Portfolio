@@ -20,15 +20,15 @@ function Showcase({translate}: ITranslate) {
 
     return (
         <section id="showcase">
-        <div className="container mt-4 pt-5"> 
+        <div className="container pt-5"> 
         <div className="row mt-3"> 
 
                 <h1 className="text-center">Portfolio</h1>
                 <h2 className="text-center">{translate("articleheader")}</h2>
         </div>
-             <div className="container mt-3" style= {{"paddingBottom": "3vh"}}>
+             <div className="container" style= {{"paddingBottom": "3vh"}}>
         <div className="row"> 
-        <div className="col-lg-4 mt-4">
+        <div className="col-lg-4 mt-2">
             <div className="card" style={{"width": "100%", "height": "100%"}}>
                 <img className="card-img-top" src={Pikis_jp} alt="Pikis_jp" style={{"width" :" 100%"}}/>
                 <div className="card-body">
@@ -40,7 +40,7 @@ function Showcase({translate}: ITranslate) {
                 </div>
             </div>
             </div>
-            <div className="col-lg-4 mt-4">
+            <div className="col-lg-4 mt-2">
             <div className="card" style={{"width": "100%", "height": "100%"}}>
                 <img className="card-img-top" src={Pikis_urheilu} alt="Pikis_urheilu" style={{"width" :" 100%"}}/>
                 <div className="card-body">
@@ -52,7 +52,7 @@ function Showcase({translate}: ITranslate) {
                 </div>
             </div>
             </div>
-            <div className="col-lg-4 mt-4">
+            <div className="col-lg-4 mt-2">
             <div className="card" style={{"width": "100%", "height": "100%"}}>
                 <img className="card-img-top" src={Pikis_hornet} alt="Pikis_hornet" style={{"width" :" 100%"}}/>
                 <div className="card-body">
@@ -66,14 +66,16 @@ function Showcase({translate}: ITranslate) {
             </div>
             </div>
     </div>
+    <div className="container"> 
         <div className="row">
-            <div className="column">
+            <div className="col-lg-12">
                 <h2 className="text-center"> {translate("prog")} </h2>
-                    <p className="text">
+                    <p>
                         {translate("prog_text")} <a href="https://github.com/jerempa/Portfolio" target="_blank">Portfolio-repo</a>
                     </p>
             </div>
         </div>
+    </div>
         <Card translate = {translate}/>
         <Carousel />
         </div>
