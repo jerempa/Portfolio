@@ -39,6 +39,9 @@ function NavBar({translate}: ITranslate) {
                             <a className="nav-link" href="#showcase" onClick={() => closeNavMenu()}>Portfolio</a>
                         </li>
                         <li className="nav-item">
+                            <a className="nav-link" href="#contact" onClick={() => closeNavMenu()}>Contact</a>
+                        </li>
+                        <li className="nav-item">
                             <a href="https://github.com/jerempa" target="_blank" onClick={() => closeNavMenu()}>
                                 <FontAwesomeIcon icon={faGithub} style={{ position: "relative",  paddingTop: "0.5vh", fontSize: "40px", color: "#070709" }} />
                             </a>

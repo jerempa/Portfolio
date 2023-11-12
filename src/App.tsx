@@ -3,6 +3,7 @@ import About from "./about";
 import CV from "./cv";
 import Showcase from './showcase';
 import Footer from './footer';
+import Contact from "./contact";
 
 
 import { useTranslation } from "react-i18next";
@@ -44,6 +45,7 @@ function App() {
       <About translate = {t} />
       <CV translate = {t} />
       <Showcase translate = {t}  />
+      <Contact translate = {t} />
     </div>
   );
 }

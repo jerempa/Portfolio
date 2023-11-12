@@ -68,7 +68,7 @@ function Carousel() {
     };
 
     return (
-        <div className="container mt-3" style= {{"paddingBottom": "3vh"}}>
+        <div className="container mt-3">
             <h3 className="text-center">Code snippets</h3> 
                 <div className="carousel">
                 <BsArrowLeftCircleFill onClick={prevSlide} className="arrow arrow-left" />
