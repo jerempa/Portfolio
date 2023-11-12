@@ -76,9 +76,9 @@ function Carousel() {
                     return (
                       <div className={slide === idx ? "slide" : "slide slide-hidden"}> 
                         <img
+                            key={idx}
                             src={item.src}
                             alt={item.alt}
-                            key={idx}
                             className={slide === idx ? "slide" : "slide slide-hidden"}
                         />
                           <p className="legend"> 

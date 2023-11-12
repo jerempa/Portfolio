@@ -15,7 +15,7 @@ function About({translate}: ITranslate) {
       <div className="container mt-4 pt-5">
       <div className="row mt-3">
         <div className="col-lg-4">
-          <img src={myImage} className="imgabout" alt="" style={{"zIndex": -1}} />
+          <img src={myImage} className="imgabout" alt="myself" />
         </div>
         <div className="col-lg-8">
         <h3 className="text-center">{translate("about-header")}</h3>
@@ -34,7 +34,7 @@ function About({translate}: ITranslate) {
                     <tr>
                         <td>Pandas, Numpy,</td>
                         <td>React.js, HTML, CSS</td>
-                        <td>SQL,</td>
+                        <td>Git, GitHub</td>
                     </tr>
                     <tr>
                         <td>Scikit-learn, Matplotlib,</td>
@@ -43,12 +43,12 @@ function About({translate}: ITranslate) {
                     </tr>
                     <tr>
                         <td>Requests, Beautiful Soup etc.</td>
-                        <td>MongoDB etc.</td>
+                        <td>SQL, NoSQL etc.</td>
                         <td>Project management etc.</td>
                     </tr>
                   </tbody>
                 </table>
-                <p style={{"fontSize": "1.125em"}}>
+                <p className="about-font">
                 {translate("about1")}
               </p>
         </div>
