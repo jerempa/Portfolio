@@ -34,5 +34,9 @@
     "ravit_desc": "Program gjort med React och Typescript som är en elektronisk version av dryckesspelet Ravit.",
     "apartmentfinder_desc": "Python-program som söker igenom lägenheter från Oikotie baserat på angivna kriterier.",
     "kide_desc": "Python-program för att köpa biljetter från Kide.app. Har både auto-clicker-version gjort med Selenium samt API-version gjort med requests och bs4.",
-    "form_desc": "Om du vill kontakta mig, skicka ett meddelande till mig via LinkedIn, till exempel. Syftet med detta formulär är att träna på att skriva kod som ansluter till extern databas och lagrar informationen"
+    "contact": "Kontakta mig",
+    "form_desc": "Om du vill kontakta mig, skicka ett meddelande till mig via LinkedIn, till exempel. Syftet med detta formulär är att träna på att skriva kod som ansluter till extern databas och lagrar informationen",
+    "form_name": "Namn",
+    "form_subject": "Anledning",
+    "form_details": "Detaljer"
 }

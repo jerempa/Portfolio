@@ -37,17 +37,17 @@ export const Contact = ({ translate, onSubmit }: ContactProps) => {
     <section id="contact">
       <div className="container pt-5">
       <div className="row mt-3">
-        <h1 className="text-center"> Contact </h1>
+        <h1 className="text-center"> {translate("contact")} </h1>
         <div className="col-lg-6">
             <p> {translate('form_desc')}</p> 
         </div>
         <div className="col-lg-6">
             <form onSubmit={handleSubmit}>
-                <input type="text" name="name" className="form-control" placeholder="Name" value={formData.name} onChange={handleInputChange}/>
+                <input type="text" name="name" className="form-control" placeholder={translate('form_name')} value={formData.name} onChange={handleInputChange}/>
                 <input type="email" name="email" className="form-control mt-3" placeholder="Email" value={formData.email} onChange={handleInputChange} />
-                <input type="text" name="subject" className="form-control mt-3" placeholder="Subject" value={formData.subject} onChange={handleInputChange} />
-                <input type="text" name="details" className="form-control mt-3" placeholder="Details" value={formData.details} onChange={handleInputChange} />
-                <button type="submit" className="btn btn-success mt-3" style={{"marginBottom": "3vh"}}>Contact Me</button>        
+                <input type="text" name="subject" className="form-control mt-3" placeholder={translate('form_subject')} value={formData.subject} onChange={handleInputChange} />
+                <input type="text" name="details" className="form-control mt-3" placeholder={translate('form_details')} value={formData.details} onChange={handleInputChange} />
+                <button type="submit" className="btn btn-success mt-3" style={{"marginBottom": "3vh"}}>{translate("contact")}</button>        
             </form>
             </div>
       </div>

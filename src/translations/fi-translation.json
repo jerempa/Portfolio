@@ -34,5 +34,9 @@
     "ravit_desc": "Reactilla ja Typescriptillä tehty ohjelma, joka on elektroninen version Ravit-juomapelistä.",
     "apartmentfinder_desc": "Python-ohjelma, joka etsii vuokra-asuntoja Oikotieltä annettujen kriteerien perusteella.",
     "kide_desc": "Python-ohjelma, jonka avulla saa ostettu lippuja Kide.appista. Toinen versio on auto-clicker Seleniumin avulla ja toinen API-versio requests- ja bs4-kirjastojen avulla.",
-    "form_desc": "Jos haluut ottaa yhteyttä niin laita viestiä vaikka LinkedInissä. Tän formin tarkotus on vaan yhdistää tietokantaan ja harjotella tietokantaan yhdistämistä, johon voi tallettaa dataa ja hakea sitä."
+    "contact": "Ota yhteyttä",
+    "form_desc": "Jos haluut ottaa yhteyttä niin laita viestiä vaikka LinkedInissä. Tän formin tarkotus on vaan yhdistää tietokantaan ja harjotella tietokantaan yhdistämistä, johon voi tallettaa dataa ja hakea sitä.",
+    "form_name": "Nimi",
+    "form_subject": "Aihe",
+    "form_details": "Lisätietoja"
 }

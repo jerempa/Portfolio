@@ -39,7 +39,7 @@ function NavBar({translate}: ITranslate) {
                             <a className="nav-link" href="#showcase" onClick={() => closeNavMenu()}>Portfolio</a>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link" href="#contact" onClick={() => closeNavMenu()}>Contact</a>
+                            <a className="nav-link" href="#contact" onClick={() => closeNavMenu()}>{translate("contact")}</a>
                         </li>
                         <li className="nav-item">
                             <a href="https://github.com/jerempa" target="_blank" onClick={() => closeNavMenu()}>
