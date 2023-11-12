@@ -1,6 +1,8 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { TFunction } from "i18next";
 import React from 'react';
+import {useState} from 'react';
+import { Alert } from 'react-bootstrap'
 
 export interface ITranslate {
     translate: TFunction
@@ -20,6 +22,7 @@ export interface UserData {
 
 export const Contact = ({ translate, onSubmit }: ContactProps) => {
     const [formData, setFormData] = React.useState<UserData>({ name: '', email: '', subject: '', details: '' });
+    const [message, setMessage] = useState("");
 
     function handleInputChange(event: React.ChangeEvent<HTMLInputElement>) {
         const { name, value } = event.target;
@@ -30,6 +33,10 @@ export const Contact = ({ translate, onSubmit }: ContactProps) => {
         event.preventDefault();
         onSubmit(formData);
         setFormData({ ...formData, 'name': '', 'email': '', 'subject': '', 'details': '' });
+        setMessage(translate('success_msg'))
+        setTimeout(() => {
+          setMessage('')
+        }, 5000)
       }
 
 
@@ -39,7 +46,12 @@ export const Contact = ({ translate, onSubmit }: ContactProps) => {
       <div className="row mt-3">
         <h1 className="text-center"> {translate("contact")} </h1>
         <div className="col-lg-6">
-            <p> {translate('form_desc')}</p> 
+            <p> {translate('form_desc')}</p>
+            {(message &&
+                <Alert variant="success">
+                {message}
+                </Alert>
+                )}   
         </div>
         <div className="col-lg-6">
             <form onSubmit={handleSubmit}>
@@ -47,7 +59,7 @@ export const Contact = ({ translate, onSubmit }: ContactProps) => {
                 <input type="email" name="email" className="form-control mt-3" placeholder="Email" value={formData.email} onChange={handleInputChange} />
                 <input type="text" name="subject" className="form-control mt-3" placeholder={translate('form_subject')} value={formData.subject} onChange={handleInputChange} />
                 <input type="text" name="details" className="form-control mt-3" placeholder={translate('form_details')} value={formData.details} onChange={handleInputChange} />
-                <button type="submit" className="btn btn-success mt-3" style={{"marginBottom": "3vh"}}>{translate("contact")}</button>        
+                <button type="submit" className="btn btn-success mt-3" style={{"marginBottom": "3vh"}}>{translate("contact")}</button>     
             </form>
             </div>
       </div>

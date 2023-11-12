@@ -38,5 +38,6 @@
     "contact": "Contact",
     "form_name": "Name",
     "form_subject": "Subject",
-    "form_details": "Details"
+    "form_details": "Details",
+    "success_msg": "Success! Your message has been sent."
 }

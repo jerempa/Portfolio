@@ -38,5 +38,6 @@
     "form_desc": "Om du vill kontakta mig, skicka ett meddelande till mig via LinkedIn, till exempel. Syftet med detta formulär är att träna på att skriva kod som ansluter till extern databas och lagrar informationen",
     "form_name": "Namn",
     "form_subject": "Anledning",
-    "form_details": "Detaljer"
+    "form_details": "Detaljer",
+    "success_msg": "Meddelande har skickats!"
 }

@@ -38,5 +38,6 @@
     "form_desc": "Jos haluut ottaa yhteyttä niin laita viestiä vaikka LinkedInissä. Tän formin tarkotus on vaan yhdistää tietokantaan ja harjotella tietokantaan yhdistämistä, johon voi tallettaa dataa ja hakea sitä.",
     "form_name": "Nimi",
     "form_subject": "Aihe",
-    "form_details": "Lisätietoja"
+    "form_details": "Lisätietoja",
+    "success_msg": "Viestin lähetys onnistui!"
 }
