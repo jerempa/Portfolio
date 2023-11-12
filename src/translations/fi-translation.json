@@ -29,7 +29,7 @@
     "IT-ski-list": ["Microsoft Office (Erinomainen)", "Power BI (Erinomainen)", "SQL (Taitava)", "Python (Taitava)", "Web development (Kyvykäs)"],
     "articleheader": "Kirjoitettuja artikkeleita Ruotuväen nettisivuille",
     "prog": "Ohjelmointiprojekteja",
-    "prog_text": "Mun tekemiä projekteja sekä Pythonilla että JavaScriptilla löytyy mun Githubista. Siellä on sekä koulutehtäviä että erikokosia omia projekteja. Python-ohjelmat on enimmäkseen tehty alusta asti itse (pl. perus StackOverflow-haut jne.) ja yks TS-projekti perustuu toisen tekemään koodiin.",
+    "prog_text": "Mun tekemiä projekteja sekä Pythonilla että JavaScriptilla löytyy mun Githubista. Siellä on sekä koulutehtäviä että erikokosia omia projekteja. Python-ohjelmat on enimmäkseen tehty alusta asti itse ja yks TS-projekti perustuu toisen tekemään koodiin.",
     "snapshots": "Esimerkkejä",
     "ravit_desc": "Reactilla ja Typescriptillä tehty ohjelma, joka on elektroninen version Ravit-juomapelistä.",
     "apartmentfinder_desc": "Python-ohjelma, joka etsii vuokra-asuntoja Oikotieltä annettujen kriteerien perusteella.",

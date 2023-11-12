@@ -29,7 +29,7 @@
     "IT-ski-list": ["Microsoft Office (Excellent)", "Power BI (Excellent)", "SQL (Skicklig)", "Python (Skicklig)", "Web development (Behörig)"],
     "articleheader": "Artiklar skrivna för Ruotuväki online",
     "prog": "Programmeringsprojekt",
-    "prog_text": "Projektet jag har gjort både med Python och React finns på min Github. Det finns projekt som är relaterade till kursuppgifter men de flesta är hobbyprojekt av olika storlek. Python-projekten är mestadels byggda från grunden av mig själv (inklusive hjälp från Stackoverflow och sådant) och ett JS-projekt är baserat på källkod av andra människor.",
+    "prog_text": "Projektet jag har gjort både med Python och React finns på min Github. Det finns projekt som är relaterade till kursuppgifter men de flesta är hobbyprojekt av olika storlek. Python-projekten är mestadels byggda från grunden av mig själv och ett JS-projekt är baserat på källkod av andra människor.",
     "snapshots": "Ögonblicksbilder",
     "ravit_desc": "Program gjort med React och Typescript som är en elektronisk version av dryckesspelet Ravit.",
     "apartmentfinder_desc": "Python-program som söker igenom lägenheter från Oikotie baserat på angivna kriterier.",
