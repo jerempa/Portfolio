@@ -3,8 +3,9 @@ import About from "./about";
 import CV from "./cv";
 import Showcase from './showcase';
 import Footer from './footer';
-import Contact from "./contact";
-
+//import  Contact  from './contact';
+//import UserData from './contact';
+import {Contact, UserData} from './contact';
 
 import { useTranslation } from "react-i18next";
 
@@ -36,16 +37,19 @@ i18n.use(initReactI18next).init({
 });
 
 
-
 function App() {
   const { t } = useTranslation();
+
+  function handleSubmit(formData: UserData) {
+    console.log(formData);
+  }
   return (
     <div>
       <NavBar translate = {t} />
       <About translate = {t} />
       <CV translate = {t} />
       <Showcase translate = {t}  />
-      <Contact translate = {t} />
+      <Contact translate={t} onSubmit={handleSubmit} />
     </div>
   );
 }
