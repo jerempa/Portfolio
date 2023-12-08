@@ -27,6 +27,8 @@
     "lang-ski-list": ["finska (Modersmål)", "engelska (Excellent)", "svenska (Tillfredsställande)", "franska (Grunderna)"],
     "IT-ski": "IT kunskaper",
     "IT-ski-list": ["Microsoft Office (Excellent)", "Power BI (Excellent)", "SQL (Skicklig)", "Python (Skicklig)", "Web development (Behörig)"],
+    "cv_other_header": "Övrig",
+    "cv_other": "Utöver mina studier och deltidsarbete försöker jag vara aktiv i studentgemenskapen, både på handelshögskolan och hela Aalto. 2022 satt jag i styrelsen för EnerKY, vilket är en klubb på KY som anordnar lågtröskelidrottsaktiviteter för andra elever. 2023 satt jag i styrelsen för KY-Vegas som samlar personer som är intresserade av olika kortspel. Dessutom kommer jag 2024 att sitta i styrelsen för Polin Pallo , som är ett fotbollslag riktat mot Teekkaris i Aalto. Några konkreta exempel på evenemang som jag har varit med och organiserat är: äventyrsparksdagen på Mustikkamaa, Texas Hold'em och UNO-turneringar i Otnäs och infoevenemang. Organisering av olika typer av evenemang av varierande storlek för andra studenter har varit fruktbart, och dessutom har det polerat min grupparbete, planering och marknadsföringsförmåga samt (student)gemenskapsengagemang.",
     "articleheader": "Artiklar skrivna för Ruotuväki online",
     "prog": "Programmeringsprojekt",
     "prog_text": "Projektet jag har gjort både med Python och React finns på min Github. Det finns projekt som är relaterade till kursuppgifter men de flesta är hobbyprojekt av olika storlek. Python-projekten är mestadels byggda från grunden av mig själv och ett JS-projekt är baserat på källkod av andra människor.",
