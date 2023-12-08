@@ -48,10 +48,12 @@ function About({translate}: ITranslate) {
                     </tr>
                   </tbody>
                 </table>
-                <p className="about-font">
-                {translate("about1")}
-              </p>
         </div>
+      </div>
+      <div className="col-lg-12"> 
+        <p className="about-font">
+          {translate("about1")}
+        </p>
       </div>
       </div>
     </section>
