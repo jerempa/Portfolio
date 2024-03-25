@@ -39,7 +39,7 @@ function About({translate}: ITranslate) {
                     <tr>
                         <td>Scikit-learn, Matplotlib,</td>
                         <td>Node.js,</td>
-                        <td>PBI, Weka, WordPress</td>
+                        <td>PBI, WordPress, Weka</td>
                     </tr>
                     <tr>
                         <td>Requests, Beautiful Soup etc.</td>
