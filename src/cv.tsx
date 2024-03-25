@@ -71,7 +71,7 @@ function CV({translate}: ITranslate) {
             <div className="col lg-12"> 
             <h2 className="text-center"> {translate("cv_other_header")} </h2>
             <p className="about-font">
-                {translate("cv_other")}
+                {translate("cv_other")} <a href="https://polinpallo.fi/" target="_blank">Polin Pallo</a>
             </p>
             </div>
         </div>
