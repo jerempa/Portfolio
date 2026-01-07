@@ -70,9 +70,10 @@ function Showcase({translate}: ITranslate) {
         <div className="row">
             <div className="col-lg-12">
                 <h2 className="text-center"> {translate("prog")} </h2>
-                    <p>
+                <p> {translate("prog_text")} </p>
+                    {/*<p>
                         {translate("prog_text")} <a href="https://github.com/jerempa/Portfolio" target="_blank">Portfolio-repo</a>
-                    </p>
+                    </p> */}
             </div>
         </div>
     </div>

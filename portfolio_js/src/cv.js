@@ -6,7 +6,7 @@ import React, { useState } from 'react';
 function CV() {
 
     const jobs = [
-      'Alma Talent Oy (18.2.2022-)',
+      'Alma Insights Oy (18.2.2022-)',
       'Fazer Leipomot Oy (14.4.2020-5.8.2022)',
       'Finnish Defence Forces (4.9.2020-11.3.2020)',
       "Mediatalo ESA (22.5.2019-20.5.2019)",

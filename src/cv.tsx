@@ -29,7 +29,7 @@ function CV({translate}: ITranslate) {
         <div className="container pt-5">
         <div className="row mt-3">
         <h1 className="text-center">Curriculum Vitae</h1>
-            <div className="col-lg-4">
+            <div className="col-lg-6">
                     <h2 className="text-center">{translate("work-exp")}</h2>
                         <div className="text">
                         <ul className="styled-list">
@@ -38,7 +38,7 @@ function CV({translate}: ITranslate) {
                                 {showFullText[index] ? (
                                 <span><strong>{job}</strong><br />{jobDescriptions[index]}</span>
                                 ) : `${job.slice(0, job.length)}`}
-                                <button onClick={() => toggleReadMore(index)}>
+                                <button className="ms-2" onClick={() => toggleReadMore(index)}>
                                 {showFullText[index] ? translate("read_less") : translate("read_more")}
                             </button>
                             </li>
@@ -46,7 +46,7 @@ function CV({translate}: ITranslate) {
                             </ul>
                         </div>
             </div>
-            <div className="col-lg-4">
+            <div className="col-lg-6">
                 <h2 className="text-center"> {translate("lang-ski")} </h2>
                     <div className="text">
                         <ul className="styled-list">
@@ -57,7 +57,7 @@ function CV({translate}: ITranslate) {
                         </ul>
                     </div>
             </div>
-            <div className="col-lg-4">
+            {/* <div className="col-lg-4">
                 <h2 className="text-center"> {translate("IT-ski")} </h2>
                     <div className="text">
                         <ul className="styled-list">
@@ -67,14 +67,14 @@ function CV({translate}: ITranslate) {
                             }
                         </ul>
                     </div>
-            </div>
-            <div className="col lg-12"> 
+            </div> */}
+            {/*<div className="col lg-12"> 
             <h2 className="text-center"> {translate("cv_other_header")} </h2>
             <p className="about-font">
                 {translate("cv_other")} <a href="https://polinpallo.fi/" target="_blank">Polin Pallo</a>
             </p>
-            </div>
-        </div>
+            </div> */}
+        </div>  
         </div>
         </section>
     );

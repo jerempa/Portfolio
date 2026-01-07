@@ -43,6 +43,38 @@ border-bottom: 2px solid #009879;
 
 .imgabout {
     width: 100%; 
-    position: relative;
-  }
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}
+
+.skill-section {
+    background-color: #ffffff;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+    height: 100%;
+}
+
+.skill-section h4 {
+    color: #009879;
+    border-bottom: 2px solid #009879;
+    padding-bottom: 10px;
+    margin-bottom: 15px;
+}
+
+.skill-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.skill-list li {
+    padding: 5px 0;
+    border-bottom: 1px solid #eee;
+}
+
+.skill-list li:last-child {
+    border-bottom: none;
+}
 

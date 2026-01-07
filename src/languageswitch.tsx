@@ -27,11 +27,11 @@ const LanguageSwitcher = () => {
       >
         {i18n.t("finnish")}
       </button>
-      <button className="styled-button"
+      {/* <button className="styled-button"
         onClick={() => handleLanguageChange({ target: { value: 'se' } } as React.ChangeEvent<HTMLSelectElement>)}
       >
         {i18n.t("swedish")}
-      </button>
+      </button> */ }
 
     </div>
   );
