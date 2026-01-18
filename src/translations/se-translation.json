@@ -41,5 +41,7 @@
     "form_name": "Namn",
     "form_subject": "Anledning",
     "form_details": "Detaljer",
-    "success_msg": "Meddelande har skickats!"
+    "success_msg": "Meddelande har skickats!",
+    "behavioral-pres-header": "Beteendeekonomi & Produktstrategi",
+    "behavioral-pres-intro": "Jag har ett djupt intresse för hur beteendeekonomi och psykologi kan tillämpas på produktstrategi och dataanalys. Nedan är en presentation jag har sammanställt som utforskar dessa koncept på djupet, med fokus på användarengagemang, vanebildning och monetiseringsetik."
 }

@@ -53,6 +53,26 @@ function About({translate}: ITranslate) {
             </p>
           </div>
         </div>
+
+        <div className="row mt-4">
+          <div className="col-lg-12 text-center">
+            <h4 className="mb-3">{translate("behavioral-pres-header")}</h4>
+            <p className="about-font mb-4 text-start">
+              {translate("behavioral-pres-intro")}
+            </p>
+            <div className="d-flex justify-content-center">
+              <div className="shadow-sm rounded overflow-hidden p-1" style={{ backgroundColor: '#f8f9fa', border: '1px solid #dee2e6', display: 'inline-block' }}>
+                <iframe 
+                  src="https://drive.google.com/file/d/1kjMcdkX_z8FlMo30_5QK6voVKcwrvyg1/preview" 
+                  width="640" 
+                  height="480" 
+                  style={{ border: 'none', maxWidth: '100%', display: 'block' }}
+                  title="Behavioral Economics Presentation"
+                ></iframe>
+              </div>
+            </div>
+          </div>
+        </div>
         
         <div className="row mt-5">
           <div className="col-lg-12">
