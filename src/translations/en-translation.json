@@ -50,5 +50,21 @@
     "form_details": "Details",
     "success_msg": "Success! Your message has been sent.",
     "behavioral-pres-header": "Behavioral economics & product strategy in the gaming industry",
-    "behavioral-pres-intro": "I have a deep interest in how behavioral economics and psychology can be applied to product strategy and data analytics. Below is a presentation I've put together that explores these concepts in depth in the context of video games. Even though the presentation is in the context of video games, especially the pricing models apply across industries. The quality is not that great due to compression of the video."
+    "behavioral-pres-intro": "I have a deep interest in how behavioral economics and psychology can be applied to product strategy and data analytics. Below is a presentation I've put together that explores these concepts in depth in the context of video games. Even though the presentation is in the context of video games, especially the pricing models apply across industries. The quality is not that great due to compression of the video. The slide set can be downloaded ",
+    "here": "here",
+    "pres-skip-text": "You can use the shortcuts below to skip directly to specific topics in the presentation:",
+    "pres-pull-header": "Pull of video games",
+    "pres-pull-btn1": "5m33s Self-determination theory and flow state",
+    "pres-pull-btn2": "10m44s Zeigarnik effect and social cohesion",
+    "pres-be-header": "Behavioral economics",
+    "pres-be-btn1": "15m07s Pricing models",
+    "pres-be-btn2": "21m26s Battle passes",
+    "pres-be-btn3": "29m15s Loot boxes",
+    "pres-be-btn4": "33m34s Limited time offers",
+    "pres-be-btn5": "35m10s Personalized deals",
+    "pres-kpi-header": "Key performance indicators",
+    "pres-kpi-btn1": "39m52s Retention metrics",
+    "pres-kpi-btn2": "41m57s Engagement metrics",
+    "pres-kpi-btn3": "47m01s Conversion and revenue metrics",
+    "pres-kpi-btn4": "49m06s Personalized deals and promotions metrics"
 }

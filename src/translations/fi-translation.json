@@ -50,5 +50,21 @@
     "form_details": "Lisätietoja",
     "success_msg": "Viestin lähetys onnistui!",
     "behavioral-pres-header": "'Behavioral economics' ja tuotestrategia",
-    "behavioral-pres-intro": "Olen erittäin kiinnostunut siitä, miten käyttäytymistaloustiedettä ja psykologiaa voidaan soveltaa tuotestrategiaan ja data-analytiikkaan. Alla on laatimani esitys, joka syventyy näihin käsitteisiin pelialalla. Vaikka esitys on pelialalla, niin käyttäytymistaloustiedettä ja psykologiaa voidaan soveltaa myös muissa aloilla. Laatu on huonohko kompression vuoksi."
+    "behavioral-pres-intro": "Olen erittäin kiinnostunut siitä, miten käyttäytymistaloustiedettä ja psykologiaa voidaan soveltaa tuotestrategiaan ja data-analytiikkaan. Alla on laatimani esitys, joka syventyy näihin käsitteisiin pelialalla. Vaikka esitys on pelialalla, niin käyttäytymistaloustiedettä ja psykologiaa voidaan soveltaa myös muissa aloilla. Laatu on huonohko kompression vuoksi. Esityksen diat voit ladata ",
+    "here": "täältä",
+    "pres-skip-text": "Voit käyttää alla olevia pikanäppäimiä siirtyäksesi suoraan esityksen tiettyihin aiheisiin:",
+    "pres-pull-header": "Videopelien vetovoima",
+    "pres-pull-btn1": "5m33s Itseohjautuvuusteoria ja flow-tila",
+    "pres-pull-btn2": "10m44s Zeigarnik-efekti ja sosiaalinen yhteenkuuluvuus",
+    "pres-be-header": "Käyttäytymistaloustiede",
+    "pres-be-btn1": "15m07s Hinnoittelumallit",
+    "pres-be-btn2": "21m26s Battle passit",
+    "pres-be-btn3": "29m15s Loot boksit",
+    "pres-be-btn4": "33m34s Rajoitetun ajan tarjoukset",
+    "pres-be-btn5": "35m10s Henkilökohtaiset tarjoukset",
+    "pres-kpi-header": "Keskeiset suorituskykymittarit (KPI)",
+    "pres-kpi-btn1": "39m52s Pysyvyysmittarit",
+    "pres-kpi-btn2": "41m57s Sitoutumismittarit",
+    "pres-kpi-btn3": "47m01s Konversio- ja liikevaihtomittarit",
+    "pres-kpi-btn4": "49m06s Henkilökohtaisten tarjousten ja kampanjoiden mittarit"
 }
