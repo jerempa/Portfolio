@@ -66,5 +66,9 @@
     "pres-kpi-btn1": "39m52s Retention metrics",
     "pres-kpi-btn2": "41m57s Engagement metrics",
     "pres-kpi-btn3": "47m01s Conversion and revenue metrics",
-    "pres-kpi-btn4": "49m06s Personalized deals and promotions metrics"
+    "pres-kpi-btn4": "49m06s Personalized deals and promotions metrics",
+    "portfolio-header": "Portfolio",
+    "portfolio-intro": "The Power BI report below is based on the video presentation above, but has been modified and expanded to be more thorough in its analysis. The dataset used in the report is made up by AI for demonstration purposes.",
+    "portfolio-wip": "Please note: This is a work in progress, and a narrated demo is coming later which will demonstrate what kind of insights can be obtained from the report.",
+    "powerbi-embed-link": "The Power BI report is embedded"
 }

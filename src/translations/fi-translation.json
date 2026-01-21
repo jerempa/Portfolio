@@ -66,5 +66,9 @@
     "pres-kpi-btn1": "39m52s Pysyvyysmittarit",
     "pres-kpi-btn2": "41m57s Sitoutumismittarit",
     "pres-kpi-btn3": "47m01s Konversio- ja liikevaihtomittarit",
-    "pres-kpi-btn4": "49m06s Henkilökohtaisten tarjousten ja kampanjoiden mittarit"
+    "pres-kpi-btn4": "49m06s Henkilökohtaisten tarjousten ja kampanjoiden mittarit",
+    "portfolio-header": "Portfolio",
+    "portfolio-intro": "Alla oleva Power BI -raportti perustuu yllä olevaan videoesitykseen, mutta sitä on muokattu ja laajennettu perusteellisemmaksi. Raportissa käytetty datasetti on tekoälyn luoma demonstraatiotarkoituksessa.",
+    "portfolio-wip": "Huomioithan: Tämä on työn alla, ja myöhemmin tulossa on kerrottu demo, joka näyttää millaisia oivalluksia raportista voidaan saada.",
+    "powerbi-embed-link": "Power BI -raportti on upotettu"
 }
