@@ -70,5 +70,6 @@
     "portfolio-header": "Portfolio",
     "portfolio-intro": "The Power BI report below is based on the video presentation above, but has been modified and expanded to be more thorough in its analysis. The dataset used in the report is made up by AI for demonstration purposes.",
     "portfolio-wip": "Please note: This is a work in progress, and a narrated demo is coming later which will demonstrate what kind of insights can be obtained from the report.",
+    "portfolio-fullscreen-tip": "If the report does not fit the whole screen, it can be opened in another window from the bottom right corner.",
     "powerbi-embed-link": "The Power BI report is embedded"
 }

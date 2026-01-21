@@ -173,7 +173,7 @@ function About({translate}: ITranslate) {
           <div className="col-lg-12">
             <h3 className="text-center mb-4">{translate("portfolio-header")}</h3>
             <p className="about-font mb-4">
-              {translate("portfolio-intro")} <strong>{translate("portfolio-wip")}</strong>
+              {translate("portfolio-intro")} <strong>{translate("portfolio-wip")}</strong> {translate("portfolio-fullscreen-tip")}
             </p>
             <div className="d-flex justify-content-center mb-4">
               <div style={{ 
