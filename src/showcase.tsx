@@ -23,7 +23,35 @@ function Showcase({translate}: ITranslate) {
         <div className="container pt-5"> 
         <div className="row mt-3"> 
 
-                <h1 className="text-center">Portfolio</h1>
+                <h1 id="portfolio" className="text-center">Portfolio</h1>
+        </div>
+
+        <div className="row mt-4">
+          <div className="col-lg-12">
+            <h4 className="text-center mb-3">{translate("powerbi-report-subheader")}</h4>
+            <p className="about-font mb-4">
+              {translate("portfolio-intro")} <strong>{translate("portfolio-wip")}</strong> {translate("portfolio-mobile-note")} {translate("portfolio-fullscreen-tip")} <a href="https://app.powerbi.com/view?r=eyJrIjoiNzRjNjE4ODEtNWY0OC00MzgzLTg3OWEtN2EyODJkMzU3MzVhIiwidCI6ImZhNjk0NGFmLWNjN2MtNGNkOC05MTU0LWMwMTEzMjc5ODkxMCIsImMiOjl9" target="_blank" rel="noopener noreferrer" className="text-primary text-decoration-underline">{translate("here")}</a>.
+            </p>
+            <div className="d-flex justify-content-center mb-4">
+              <div style={{ 
+                backgroundColor: '#ffffff', 
+                padding: '10px', 
+                borderRadius: '6px',
+                boxShadow: '0 2px 8px rgba(0,0,0,0.1)'
+              }}>
+                <iframe 
+                  title="portfolio_file" 
+                  width="1280" 
+                  height="808" 
+                  src="https://app.powerbi.com/view?r=eyJrIjoiNzRjNjE4ODEtNWY0OC00MzgzLTg3OWEtN2EyODJkMzU3MzVhIiwidCI6ImZhNjk0NGFmLWNjN2MtNGNkOC05MTU0LWMwMTEzMjc5ODkxMCIsImMiOjl9" 
+                  frameBorder="0"
+                ></iframe>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div className="row mt-5"> 
                 <h2 className="text-center">{translate("articleheader")}</h2>
         </div>
              <div className="container" style= {{"paddingBottom": "3vh"}}>

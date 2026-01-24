@@ -169,34 +169,9 @@ function About({translate}: ITranslate) {
           </div>
         </div>
 
-        <div id="portfolio" className="row mt-5">
-          <div className="col-lg-12">
-            <h3 className="text-center mb-4">{translate("portfolio-header")}</h3>
-            <p className="about-font mb-4">
-              {translate("portfolio-intro")} <strong>{translate("portfolio-wip")}</strong> {translate("portfolio-fullscreen-tip")}
-            </p>
-            <div className="d-flex justify-content-center mb-4">
-              <div style={{ 
-                backgroundColor: '#ffffff', 
-                padding: '10px', 
-                borderRadius: '6px',
-                boxShadow: '0 2px 8px rgba(0,0,0,0.1)'
-              }}>
-                <iframe 
-                  title="portfolio_file" 
-                  width="1280" 
-                  height="808" 
-                  src="https://app.powerbi.com/view?r=eyJrIjoiNzRjNjE4ODEtNWY0OC00MzgzLTg3OWEtN2EyODJkMzU3MzVhIiwidCI6ImZhNjk0NGFmLWNjN2MtNGNkOC05MTU0LWMwMTEzMjc5ODkxMCIsImMiOjl9" 
-                  frameBorder="0"
-                ></iframe>
-              </div>
-            </div>
-          </div>
-        </div>
-        
         <div className="row mt-5">
           <div className="col-lg-12">
-            <h3 className="text-center mb-4">Skills</h3>
+            <h3 className="text-center mb-4">{translate("skills-header")}</h3>
           </div>
           <div className="col-md-6 col-lg-3 mb-4">
             <div className="skill-section">
