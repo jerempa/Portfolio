@@ -3,6 +3,7 @@ import './styles/App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import myImage from './images/IMG_20220219_180602 (1).jpg';
 import presentationPdf from './images/presentation.pdf';
+import abTestingPdf from './images/ab_testing.pdf';
 import { TFunction } from "i18next";
 import React, { useState } from 'react';
 import { Modal, Button } from 'react-bootstrap';
@@ -16,7 +17,8 @@ function About({translate}: ITranslate) {
   const [showTampereModal, setShowTampereModal] = useState(false);
   
   // Obfuscated URLs (Base64)
-  const baseId = "aHR0cHM6Ly9kcml2ZS5nb29nbGUuY29tL2ZpbGUvZC8xa2pNY2RrWF96OEZsTW8zMF81UUs2dm9WS2N3cnZ5ZzEvcHJldmlldw==";
+  const baseId = "aHR0cHM6Ly9kcml2ZS5nb29nbGUuY29tL2ZpbGUvZC8xMGZmVXBpVHhWRmpIMVdNWkp1bk4wTnFmUzhvR3FXRi0vcHJldmlldw==";
+  const abTestingId = "aHR0cHM6Ly9kcml2ZS5nb29nbGUuY29tL2ZpbGUvZC8xN1UtM0RuU0V3STJwZ1lvU1hWelZoUWxSY1pZV2otOXMvcHJldmlldw==";
   const decodeUrl = (str: string) => atob(str);
 
   const [videoSrc, setVideoSrc] = useState(decodeUrl(baseId));
@@ -161,6 +163,52 @@ function About({translate}: ITranslate) {
                   }}>
                     <span style={{ color: '#fff', fontSize: '13px', fontWeight: 'bold', opacity: 0.8 }}>
                       {translate("behavioral-pres-header")}
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div className="row mt-5">
+          <div className="col-lg-12">
+            <h4 className="mb-3">{translate("ab-testing-header")}</h4>
+            <p className="about-font mb-4">
+              {translate("ab-testing-intro")}
+              <a href={abTestingPdf} download="ab_testing.pdf" className="text-primary text-decoration-underline">
+                {translate("here")}
+              </a>.
+            </p>
+            
+            <div className="row">
+              {/* Video */}
+              <div className="col-lg-12 mb-4">
+                <div className="ratio ratio-16x9 shadow-sm rounded overflow-hidden" style={{ backgroundColor: '#000', border: '1px solid #dee2e6', position: 'relative' }}>
+                  <iframe 
+                    src={decodeUrl(abTestingId)} 
+                    style={{ border: 'none' }}
+                    title="A/B Testing Presentation"
+                    allowFullScreen
+                    sandbox="allow-scripts allow-same-origin allow-forms"
+                    allow="autoplay"
+                  ></iframe>
+                  {/* Visual mask to hide the Google Drive top bar and its 'Open in window' button */}
+                  <div style={{ 
+                    position: 'absolute', 
+                    top: 0, 
+                    right: 0, 
+                    width: '100%', 
+                    height: '52px', 
+                    backgroundColor: '#000', 
+                    zIndex: 10,
+                    pointerEvents: 'auto',
+                    display: 'flex',
+                    alignItems: 'center',
+                    justifyContent: 'center'
+                  }}>
+                    <span style={{ color: '#fff', fontSize: '13px', fontWeight: 'bold', opacity: 0.8 }}>
+                      {translate("ab-testing-header")}
                     </span>
                   </div>
                 </div>
