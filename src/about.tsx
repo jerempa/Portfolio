@@ -240,6 +240,8 @@ function About({translate}: ITranslate) {
               <ul className="skill-list">
                 <li>Python (Pandas, NumPy, etc.)</li>
                 <li>Apache Airflow</li>
+                <li>Dagster</li>
+                <li>dbt</li>
                 <li>AWS services</li>
                 <li>SQL & NoSQL databases</li>
                 <li>GitHub Actions</li>
@@ -264,6 +266,10 @@ function About({translate}: ITranslate) {
             <div className="skill-section">
               <h4>Core Knowledge</h4>
               <ul className="skill-list">
+                <li>Jira</li>
+                <li>Confluence</li>
+                <li>Scrum</li>
+                <li>Kanban</li>
                 <li>Machine learning & MLOps</li>
                 <li>Project management</li>
                 <li>Sustainable software engineering</li>
