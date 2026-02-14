@@ -242,6 +242,7 @@ function About({translate}: ITranslate) {
                 <li>Apache Airflow</li>
                 <li>Dagster</li>
                 <li>dbt</li>
+                <li> Docker </li>
                 <li>AWS services</li>
                 <li>SQL & NoSQL databases</li>
                 <li>GitHub Actions</li>
