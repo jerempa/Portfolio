@@ -238,15 +238,17 @@ function About({translate}: ITranslate) {
             <div className="skill-section">
               <h4>Data Engineering</h4>
               <ul className="skill-list">
-                <li>Python (Pandas, NumPy, etc.)</li>
+                <li>Python</li>
                 <li>Apache Airflow</li>
                 <li>Dagster</li>
                 <li>dbt</li>
+                <li> Terraform </li>
                 <li> Docker </li>
                 <li>AWS services</li>
                 <li>SQL & NoSQL databases</li>
                 <li>GitHub Actions</li>
                 <li>CI/CD pipelines</li>
+                <li> Cursor, GitHub Copilot, Coderabbit </li>
               </ul>
             </div>
           </div>

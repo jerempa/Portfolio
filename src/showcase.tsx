@@ -30,7 +30,7 @@ function Showcase({translate}: ITranslate) {
           <div className="col-lg-12">
             <h4 className="text-center mb-3">{translate("powerbi-report-subheader")}</h4>
             <p className="about-font mb-4">
-              {translate("portfolio-intro")} <strong>{translate("portfolio-wip")}</strong> {translate("portfolio-mobile-note")} {translate("portfolio-fullscreen-tip")} <a href="https://app.powerbi.com/view?r=eyJrIjoiNzRjNjE4ODEtNWY0OC00MzgzLTg3OWEtN2EyODJkMzU3MzVhIiwidCI6ImZhNjk0NGFmLWNjN2MtNGNkOC05MTU0LWMwMTEzMjc5ODkxMCIsImMiOjl9" target="_blank" rel="noopener noreferrer" className="text-primary text-decoration-underline">{translate("here")}</a>.
+              {translate("portfolio-intro")} {translate("portfolio-mobile-note")} {translate("portfolio-fullscreen-tip")} <a href="https://app.powerbi.com/view?r=eyJrIjoiNzRjNjE4ODEtNWY0OC00MzgzLTg3OWEtN2EyODJkMzU3MzVhIiwidCI6ImZhNjk0NGFmLWNjN2MtNGNkOC05MTU0LWMwMTEzMjc5ODkxMCIsImMiOjl9" target="_blank" rel="noopener noreferrer" className="text-primary text-decoration-underline">{translate("here")}</a>.
             </p>
             <div className="d-flex justify-content-center mb-4">
               <div style={{ 
@@ -98,17 +98,18 @@ function Showcase({translate}: ITranslate) {
         <div className="row">
             <div className="col-lg-12">
                 <h2 className="text-center"> {translate("prog")} </h2>
-                <p> {translate("prog_text")} </p>
-                    {/*<p>
+                <p> {translate("prog_text_new")} </p>
+                {/*<p> {translate("prog_text")} </p>
+                    <p>
                         {translate("prog_text")} <a href="https://github.com/jerempa/Portfolio" target="_blank">Portfolio-repo</a>
                     </p> */}
             </div>
         </div>
     </div>
-        <Card translate = {translate}/>
-        <Carousel />
-        </div>
-        </section>
+        {/*<Card translate = {translate}/>
+        <Carousel /> */}
+        </div> 
+        </section>  
     );
 }
 
